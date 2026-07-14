@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - button [ref=e4] [cursor=pointer]
+    - generic [ref=e10]: Loading...
+  - button "Open Next.js Dev Tools" [ref=e17] [cursor=pointer]

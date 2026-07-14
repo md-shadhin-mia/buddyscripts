@@ -1,0 +1,5 @@
+[    2955ms] [LOG] JSHandle@node @ http://localhost:3001/js/custom.js:4
+[    2957ms] [LOG] false @ http://localhost:3001/js/custom.js:19
+[    2957ms] [LOG] false @ http://localhost:3001/js/custom.js:40
+[    2959ms] [LOG] false @ http://localhost:3001/:1761
+[    4433ms] Identifier 'toggleMode' has already been declared

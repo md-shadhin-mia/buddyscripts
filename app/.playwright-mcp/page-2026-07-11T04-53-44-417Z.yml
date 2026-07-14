@@ -1,0 +1,348 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - button [ref=f6e4] [cursor=pointer]
+    - generic [ref=f6e10]:
+      - navigation [ref=f6e11]:
+        - generic [ref=f6e12]:
+          - link [ref=f6e14] [cursor=pointer]:
+            - /url: feed.html
+            - img "Image" [ref=f6e15]
+          - generic [ref=f6e16]:
+            - searchbox "Search" [ref=f6e22]
+            - list [ref=f6e23]:
+              - listitem [ref=f6e24]:
+                - link [ref=f6e25] [cursor=pointer]:
+                  - /url: feed.html
+              - listitem [ref=f6e29]:
+                - link [ref=f6e30] [cursor=pointer]:
+                  - /url: friend-request.html
+              - listitem [ref=f6e33]:
+                - generic [ref=f6e34] [cursor=pointer]: "6"
+              - listitem [ref=f6e38]:
+                - link "2" [ref=f6e39] [cursor=pointer]:
+                  - /url: chat.html
+            - generic [ref=f6e43]:
+              - img "Image" [ref=f6e45]
+              - generic [ref=f6e46] [cursor=pointer]:
+                - paragraph [ref=f6e47]: Dylan Field
+                - button [ref=f6e48]
+      - generic [ref=f6e53]:
+        - generic [ref=f6e55]:
+          - generic [ref=f6e57]:
+            - heading "Explore" [level=4] [ref=f6e58]
+            - list [ref=f6e59]:
+              - listitem [ref=f6e60]:
+                - link "Learning" [ref=f6e61] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f6e64]: New
+              - listitem [ref=f6e65]:
+                - link "Insights" [ref=f6e66] [cursor=pointer]:
+                  - /url: "#0"
+              - listitem [ref=f6e69]:
+                - link "Find friends" [ref=f6e70] [cursor=pointer]:
+                  - /url: find-friends.html
+              - listitem [ref=f6e73]:
+                - link "Bookmarks" [ref=f6e74] [cursor=pointer]:
+                  - /url: "#0"
+              - listitem [ref=f6e77]:
+                - link "Group" [ref=f6e78] [cursor=pointer]:
+                  - /url: group.html
+              - listitem [ref=f6e84]:
+                - link "Gaming" [ref=f6e85] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f6e88]: New
+              - listitem [ref=f6e89]:
+                - link "Settings" [ref=f6e90] [cursor=pointer]:
+                  - /url: "#0"
+              - listitem [ref=f6e93]:
+                - link "Save post" [ref=f6e94] [cursor=pointer]:
+                  - /url: "#0"
+          - generic [ref=f6e100]:
+            - generic [ref=f6e101]:
+              - heading "Suggested People" [level=4] [ref=f6e102]
+              - link "See All" [ref=f6e104] [cursor=pointer]:
+                - /url: "#0"
+            - generic [ref=f6e105]:
+              - generic [ref=f6e106]:
+                - link [ref=f6e108] [cursor=pointer]:
+                  - /url: profile.html
+                  - img "Image" [ref=f6e109]
+                - generic [ref=f6e110]:
+                  - link [ref=f6e111] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Steve Jobs" [level=4] [ref=f6e112]
+                  - paragraph [ref=f6e113]: CEO of Apple
+              - link "Connect" [ref=f6e115] [cursor=pointer]:
+                - /url: "#0"
+            - generic [ref=f6e116]:
+              - generic [ref=f6e117]:
+                - link [ref=f6e119] [cursor=pointer]:
+                  - /url: profile.html
+                  - img "Image" [ref=f6e120]
+                - generic [ref=f6e121]:
+                  - link [ref=f6e122] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Ryan Roslansky" [level=4] [ref=f6e123]
+                  - paragraph [ref=f6e124]: CEO of Linkedin
+              - link "Connect" [ref=f6e126] [cursor=pointer]:
+                - /url: "#0"
+            - generic [ref=f6e127]:
+              - generic [ref=f6e128]:
+                - link [ref=f6e130] [cursor=pointer]:
+                  - /url: profile.html
+                  - img "Image" [ref=f6e131]
+                - generic [ref=f6e132]:
+                  - link [ref=f6e133] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f6e134]
+                  - paragraph [ref=f6e135]: CEO of Figma
+              - link "Connect" [ref=f6e137] [cursor=pointer]:
+                - /url: "#0"
+          - generic [ref=f6e139]:
+            - generic [ref=f6e140]:
+              - heading "Events" [level=4] [ref=f6e141]
+              - link "See all" [ref=f6e142] [cursor=pointer]:
+                - /url: event.html
+            - link [ref=f6e143] [cursor=pointer]:
+              - /url: event-single.html
+              - generic [ref=f6e144]:
+                - img "Image" [ref=f6e146]
+                - generic [ref=f6e147]:
+                  - generic [ref=f6e148]:
+                    - paragraph [ref=f6e149]: "10"
+                    - paragraph [ref=f6e150]: Jul
+                  - heading "No more terrorism no more cry" [level=4] [ref=f6e152]
+                - separator [ref=f6e153]
+                - generic [ref=f6e154]:
+                  - paragraph [ref=f6e155]: 17 People Going
+                  - link "Going" [ref=f6e156]:
+                    - /url: "#0"
+            - link [ref=f6e157] [cursor=pointer]:
+              - /url: event-single.html
+              - generic [ref=f6e158]:
+                - img "Image" [ref=f6e160]
+                - generic [ref=f6e161]:
+                  - generic [ref=f6e162]:
+                    - paragraph [ref=f6e163]: "10"
+                    - paragraph [ref=f6e164]: Jul
+                  - heading "No more terrorism no more cry" [level=4] [ref=f6e166]
+                - separator [ref=f6e167]
+                - generic [ref=f6e168]:
+                  - paragraph [ref=f6e169]: 17 People Going
+                  - link "Going" [ref=f6e170]:
+                    - /url: "#0"
+        - generic [ref=f6e172]:
+          - generic [ref=f6e173]:
+            - generic [ref=f6e174]:
+              - img "Image" [ref=f6e176] [cursor=pointer]
+              - generic [ref=f6e177]:
+                - textbox "Write something ..." [ref=f6e178]:
+                  - /placeholder: Leave a comment here
+                - generic: Write something ...
+            - generic [ref=f6e179]:
+              - generic [ref=f6e180]:
+                - button "Photo" [ref=f6e182] [cursor=pointer]
+                - button "Video" [ref=f6e187] [cursor=pointer]
+                - button "Event" [ref=f6e192] [cursor=pointer]
+                - button "Article" [ref=f6e197] [cursor=pointer]
+              - button "Post" [ref=f6e202] [cursor=pointer]
+          - generic [ref=f6e206]:
+            - button [ref=f6e208] [cursor=pointer]
+            - generic [ref=f6e211]:
+              - generic [ref=f6e214] [cursor=pointer]:
+                - img "Image" [ref=f6e215]
+                - generic [ref=f6e216]:
+                  - button [ref=f6e218]
+                  - paragraph [ref=f6e221]: Your Story
+              - generic [ref=f6e224] [cursor=pointer]:
+                - img "Image" [ref=f6e225]
+                - paragraph [ref=f6e227]: Ryan Roslansky
+                - img "Image" [ref=f6e229]
+              - generic [ref=f6e232] [cursor=pointer]:
+                - img "Image" [ref=f6e233]
+                - paragraph [ref=f6e235]: Ryan Roslansky
+                - img "Image" [ref=f6e237]
+              - generic [ref=f6e240] [cursor=pointer]:
+                - img "Image" [ref=f6e241]
+                - paragraph [ref=f6e243]: Ryan Roslansky
+                - img "Image" [ref=f6e245]
+          - generic [ref=f6e246]:
+            - generic [ref=f6e247]:
+              - generic [ref=f6e248]:
+                - generic [ref=f6e251] [cursor=pointer]:
+                  - heading "Karim Saif" [level=4] [ref=f6e252]
+                  - paragraph [ref=f6e253]:
+                    - text: 5 minute ago .
+                    - link "Public" [ref=f6e254]:
+                      - /url: "#0"
+                - button [ref=f6e257] [cursor=pointer]
+              - heading "-Healthy Tracking App" [level=4] [ref=f6e262]
+            - generic [ref=f6e264]:
+              - generic [ref=f6e265] [cursor=pointer]:
+                - img "Image" [ref=f6e266]
+                - img "Image" [ref=f6e267]
+                - img "Image" [ref=f6e268]
+                - img "Image" [ref=f6e269]
+                - img "Image" [ref=f6e270]
+                - paragraph [ref=f6e271]: 9+
+              - generic [ref=f6e272]:
+                - paragraph [ref=f6e273]:
+                  - link "12 Comment" [ref=f6e274] [cursor=pointer]:
+                    - /url: "#0"
+                - paragraph [ref=f6e275]: 122 Share
+            - generic [ref=f6e276]:
+              - button [ref=f6e277] [cursor=pointer]
+              - button [ref=f6e285] [cursor=pointer]
+              - button [ref=f6e291] [cursor=pointer]
+            - generic [ref=f6e298]:
+              - textbox "Write a comment" [ref=f6e302]
+              - generic [ref=f6e303]:
+                - button [ref=f6e304] [cursor=pointer]
+                - button [ref=f6e307] [cursor=pointer]
+            - generic [ref=f6e310]:
+              - button "View 4 previous comments" [ref=f6e312] [cursor=pointer]
+              - generic [ref=f6e313]:
+                - link [ref=f6e315] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f6e316]:
+                  - generic [ref=f6e317]:
+                    - link [ref=f6e320] [cursor=pointer]:
+                      - /url: "profile.html "
+                      - heading "Radovan SkillArena" [level=4] [ref=f6e321]
+                    - paragraph [ref=f6e323]: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    - generic [ref=f6e324] [cursor=pointer]: "198"
+                    - list [ref=f6e334]:
+                      - listitem [ref=f6e335]: Like.
+                      - listitem [ref=f6e336]: Reply.
+                      - listitem [ref=f6e337]: Share
+                      - listitem [ref=f6e338]: .21m
+                  - generic [ref=f6e340]:
+                    - textbox "Write a comment" [ref=f6e344]
+                    - generic [ref=f6e345]:
+                      - button [ref=f6e346] [cursor=pointer]
+                      - button [ref=f6e349] [cursor=pointer]
+        - generic [ref=f6e353]:
+          - generic [ref=f6e355]:
+            - generic [ref=f6e356]:
+              - heading "You Might Like" [level=4] [ref=f6e357]
+              - link "See All" [ref=f6e359] [cursor=pointer]:
+                - /url: "#0"
+            - separator [ref=f6e360]
+            - generic [ref=f6e361]:
+              - generic [ref=f6e362]:
+                - link [ref=f6e364] [cursor=pointer]:
+                  - /url: profile.html
+                  - img "Image" [ref=f6e365]
+                - generic [ref=f6e366]:
+                  - link [ref=f6e367] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Radovan SkillArena" [level=4] [ref=f6e368]
+                  - paragraph [ref=f6e369]: Founder & CEO at Trophy
+              - generic [ref=f6e370]:
+                - button "Ignore" [ref=f6e371] [cursor=pointer]
+                - button "Follow" [ref=f6e372] [cursor=pointer]
+          - generic [ref=f6e374]:
+            - generic [ref=f6e375]:
+              - generic [ref=f6e376]:
+                - heading "Your Friends" [level=4] [ref=f6e377]
+                - link "See All" [ref=f6e379] [cursor=pointer]:
+                  - /url: find-friends.html
+              - searchbox "Search" [ref=f6e384]
+            - generic [ref=f6e385]:
+              - generic [ref=f6e386]:
+                - generic [ref=f6e387]:
+                  - link [ref=f6e389] [cursor=pointer]:
+                    - /url: profile.html
+                  - generic [ref=f6e390]:
+                    - link [ref=f6e391] [cursor=pointer]:
+                      - /url: profile.html
+                      - heading "Steve Jobs" [level=4] [ref=f6e392]
+                    - paragraph [ref=f6e393]: CEO of Apple
+                - generic [ref=f6e394]: 5 minute ago
+              - generic [ref=f6e396]:
+                - link [ref=f6e398] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f6e399]:
+                  - link [ref=f6e400] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Ryan Roslansky" [level=4] [ref=f6e401]
+                  - paragraph [ref=f6e402]: CEO of Linkedin
+              - generic [ref=f6e407]:
+                - link [ref=f6e409] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f6e410]:
+                  - link [ref=f6e411] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f6e412]
+                  - paragraph [ref=f6e413]: CEO of Figma
+              - generic [ref=f6e417]:
+                - generic [ref=f6e418]:
+                  - link [ref=f6e420] [cursor=pointer]:
+                    - /url: profile.html
+                  - generic [ref=f6e421]:
+                    - link [ref=f6e422] [cursor=pointer]:
+                      - /url: profile.html
+                      - heading "Steve Jobs" [level=4] [ref=f6e423]
+                    - paragraph [ref=f6e424]: CEO of Apple
+                - generic [ref=f6e425]: 5 minute ago
+              - generic [ref=f6e427]:
+                - link [ref=f6e429] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f6e430]:
+                  - link [ref=f6e431] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Ryan Roslansky" [level=4] [ref=f6e432]
+                  - paragraph [ref=f6e433]: CEO of Linkedin
+              - generic [ref=f6e438]:
+                - link [ref=f6e440] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f6e441]:
+                  - link [ref=f6e442] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f6e443]
+                  - paragraph [ref=f6e444]: CEO of Figma
+              - generic [ref=f6e448]:
+                - generic [ref=f6e449]:
+                  - link [ref=f6e451] [cursor=pointer]:
+                    - /url: profile.html
+                  - generic [ref=f6e452]:
+                    - link [ref=f6e453] [cursor=pointer]:
+                      - /url: profile.html
+                      - heading "Steve Jobs" [level=4] [ref=f6e454]
+                    - paragraph [ref=f6e455]: CEO of Apple
+                - generic [ref=f6e456]: 5 minute ago
+              - generic [ref=f6e458]:
+                - link [ref=f6e460] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f6e461]:
+                  - link [ref=f6e462] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Ryan Roslansky" [level=4] [ref=f6e463]
+                  - paragraph [ref=f6e464]: CEO of Linkedin
+              - generic [ref=f6e469]:
+                - link [ref=f6e471] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f6e472]:
+                  - link [ref=f6e473] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f6e474]
+                  - paragraph [ref=f6e475]: CEO of Figma
+              - generic [ref=f6e480]:
+                - link [ref=f6e482] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f6e483]:
+                  - link [ref=f6e484] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f6e485]
+                  - paragraph [ref=f6e486]: CEO of Figma
+              - generic [ref=f6e490]:
+                - generic [ref=f6e491]:
+                  - link [ref=f6e493] [cursor=pointer]:
+                    - /url: profile.html
+                  - generic [ref=f6e494]:
+                    - link [ref=f6e495] [cursor=pointer]:
+                      - /url: profile.html
+                      - heading "Steve Jobs" [level=4] [ref=f6e496]
+                    - paragraph [ref=f6e497]: CEO of Apple
+                - generic [ref=f6e498]: 5 minute ago
+  - alert [ref=f6e499]

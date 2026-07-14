@@ -1,0 +1,3 @@
+[    2128ms] [LOG] JSHandle@node @ http://localhost:3001/js/custom.js:4
+[    2129ms] [LOG] false @ http://localhost:3001/js/custom.js:19
+[    2129ms] [LOG] false @ http://localhost:3001/js/custom.js:40

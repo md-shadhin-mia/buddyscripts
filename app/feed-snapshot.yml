@@ -1,0 +1,22 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - button [ref=f11e4] [cursor=pointer]
+    - generic [ref=f11e10]:
+      - navigation [ref=f11e11]:
+        - generic [ref=f11e12]:
+          - link "Image" [ref=f11e14] [cursor=pointer]:
+            - /url: feed.html
+          - generic [ref=f11e16]
+      - generic [ref=f11e53]:
+        - generic [ref=f11e55]:
+          - generic [ref=f11e57]
+          - generic [ref=f11e100]
+          - generic [ref=f11e139]
+        - generic [ref=f11e172]:
+          - generic [ref=f11e173]
+          - generic [ref=f11e206]
+          - generic [ref=f11e246]
+        - generic [ref=f11e353]:
+          - generic [ref=f11e355]
+          - generic [ref=f11e374]
+  - alert [ref=f11e499]

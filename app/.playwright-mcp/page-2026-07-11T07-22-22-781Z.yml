@@ -1,0 +1,1768 @@
+- generic [active] [ref=f3e1]:
+  - button "Open Next.js Dev Tools" [ref=f3e19] [cursor=pointer]
+  - alert [ref=f3e23]
+  - generic [ref=f3e24]:
+    - button [ref=f3e26] [cursor=pointer]
+    - generic [ref=f3e32]:
+      - navigation [ref=f3e33]:
+        - generic [ref=f3e34]:
+          - link [ref=f3e3716] [cursor=pointer]:
+            - /url: feed.html
+            - img "Image" [ref=f3e3717]
+          - generic [ref=f3e38]:
+            - searchbox "Search" [ref=f3e3718]
+            - list [ref=f3e45]:
+              - listitem [ref=f3e46]:
+                - link [ref=f3e47] [cursor=pointer]:
+                  - /url: feed.html
+              - listitem [ref=f3e51]:
+                - link [ref=f3e52] [cursor=pointer]:
+                  - /url: friend-request.html
+              - listitem [ref=f3e55]:
+                - button [ref=f3e57] [cursor=pointer]
+              - listitem [ref=f3e60]:
+                - link "2" [ref=f3e3719] [cursor=pointer]:
+                  - /url: chat.html
+            - generic [ref=f3e65]:
+              - img "Image" [ref=f3e3720]
+              - generic [ref=f3e68] [cursor=pointer]:
+                - paragraph [ref=f3e69]: Dylan Field
+                - button [ref=f3e70]
+      - generic [ref=f3e75]:
+        - generic [ref=f3e77]:
+          - generic [ref=f3e79]:
+            - heading "Explore" [level=4] [ref=f3e3721]
+            - list [ref=f3e81]:
+              - listitem [ref=f3e82]:
+                - link "Learning" [ref=f3e3722] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e86]: New
+              - listitem [ref=f3e87]:
+                - link "Insights" [ref=f3e3723] [cursor=pointer]:
+                  - /url: "#0"
+              - listitem [ref=f3e91]:
+                - link "Find friends" [ref=f3e3724] [cursor=pointer]:
+                  - /url: find-friends.html
+              - listitem [ref=f3e95]:
+                - link "Bookmarks" [ref=f3e3725] [cursor=pointer]:
+                  - /url: "#0"
+              - listitem [ref=f3e99]:
+                - link "Group" [ref=f3e3726] [cursor=pointer]:
+                  - /url: group.html
+              - listitem [ref=f3e106]:
+                - link "Gaming" [ref=f3e3727] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e110]: New
+              - listitem [ref=f3e111]:
+                - link "Settings" [ref=f3e3728] [cursor=pointer]:
+                  - /url: "#0"
+              - listitem [ref=f3e115]:
+                - link "Save post" [ref=f3e3729] [cursor=pointer]:
+                  - /url: "#0"
+          - generic [ref=f3e122]:
+            - generic [ref=f3e123]:
+              - heading "Suggested People" [level=4] [ref=f3e3730]
+              - link "See All" [ref=f3e3731] [cursor=pointer]:
+                - /url: "#0"
+            - generic [ref=f3e127]:
+              - generic [ref=f3e128]:
+                - link [ref=f3e3732] [cursor=pointer]:
+                  - /url: profile.html
+                  - img "Image" [ref=f3e3733]
+                - generic [ref=f3e132]:
+                  - link [ref=f3e3734] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Steve Jobs" [level=4] [ref=f3e3735]
+                  - paragraph [ref=f3e135]: CEO of Apple
+              - link "Connect" [ref=f3e3736] [cursor=pointer]:
+                - /url: "#0"
+            - generic [ref=f3e138]:
+              - generic [ref=f3e139]:
+                - link [ref=f3e3737] [cursor=pointer]:
+                  - /url: profile.html
+                  - img "Image" [ref=f3e3738]
+                - generic [ref=f3e143]:
+                  - link [ref=f3e3739] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Ryan Roslansky" [level=4] [ref=f3e3740]
+                  - paragraph [ref=f3e146]: CEO of Linkedin
+              - link "Connect" [ref=f3e3741] [cursor=pointer]:
+                - /url: "#0"
+            - generic [ref=f3e149]:
+              - generic [ref=f3e150]:
+                - link [ref=f3e3742] [cursor=pointer]:
+                  - /url: profile.html
+                  - img "Image" [ref=f3e3743]
+                - generic [ref=f3e154]:
+                  - link [ref=f3e3744] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f3e3745]
+                  - paragraph [ref=f3e157]: CEO of Figma
+              - link "Connect" [ref=f3e3746] [cursor=pointer]:
+                - /url: "#0"
+          - generic [ref=f3e161]:
+            - generic [ref=f3e162]:
+              - heading "Events" [level=4] [ref=f3e3747]
+              - link "See all" [ref=f3e3748] [cursor=pointer]:
+                - /url: event.html
+            - link "Image 10 Jul No more terrorism no more cry 17 People Going Going" [ref=f3e3749] [cursor=pointer]:
+              - /url: event-single.html
+              - generic [ref=f3e166]:
+                - img "Image" [ref=f3e3750]
+                - generic [ref=f3e169]:
+                  - generic [ref=f3e170]:
+                    - paragraph [ref=f3e171]: "10"
+                    - paragraph [ref=f3e172]: Jul
+                  - heading "No more terrorism no more cry" [level=4] [ref=f3e3751]
+                - separator [ref=f3e175]
+                - generic [ref=f3e176]:
+                  - paragraph [ref=f3e177]: 17 People Going
+                  - generic [ref=f3e178]: Going
+            - link "Image 10 Jul No more terrorism no more cry 17 People Going Going" [ref=f3e3752] [cursor=pointer]:
+              - /url: event-single.html
+              - generic [ref=f3e180]:
+                - img "Image" [ref=f3e3753]
+                - generic [ref=f3e183]:
+                  - generic [ref=f3e184]:
+                    - paragraph [ref=f3e185]: "10"
+                    - paragraph [ref=f3e186]: Jul
+                  - heading "No more terrorism no more cry" [level=4] [ref=f3e3754]
+                - separator [ref=f3e189]
+                - generic [ref=f3e190]:
+                  - paragraph [ref=f3e191]: 17 People Going
+                  - generic [ref=f3e192]: Going
+        - generic [ref=f3e194]:
+          - generic [ref=f3e195]:
+            - generic [ref=f3e196]:
+              - img "Image" [ref=f3e3755] [cursor=pointer]
+              - generic [ref=f3e199]:
+                - textbox "Write something ..." [ref=f3e3756]:
+                  - /placeholder: Leave a comment here
+                - generic: Write something ...
+            - generic [ref=f3e201]:
+              - generic [ref=f3e202]:
+                - button "Photo" [ref=f3e3757] [cursor=pointer]
+                - button "Video" [ref=f3e3758] [cursor=pointer]
+                - button "Event" [ref=f3e3759] [cursor=pointer]
+                - button "Article" [ref=f3e3760] [cursor=pointer]
+              - button "Post" [ref=f3e3761] [cursor=pointer]
+          - generic [ref=f3e228]:
+            - button [ref=f3e230] [cursor=pointer]
+            - generic [ref=f3e233]:
+              - generic [ref=f3e236] [cursor=pointer]:
+                - img "Image" [ref=f3e3762]
+                - generic [ref=f3e238]:
+                  - button [ref=f3e240]
+                  - paragraph [ref=f3e243]: Your Story
+              - generic [ref=f3e246] [cursor=pointer]:
+                - img "Image" [ref=f3e3763]
+                - paragraph [ref=f3e249]: Ryan Roslansky
+                - img "Image" [ref=f3e3764]
+              - generic [ref=f3e254] [cursor=pointer]:
+                - img "Image" [ref=f3e3765]
+                - paragraph [ref=f3e257]: Ryan Roslansky
+                - img "Image" [ref=f3e3766]
+              - generic [ref=f3e262] [cursor=pointer]:
+                - img "Image" [ref=f3e3767]
+                - paragraph [ref=f3e265]: Ryan Roslansky
+                - img "Image" [ref=f3e3768]
+          - generic [ref=f3e415]:
+            - generic [ref=f3e416]:
+              - generic [ref=f3e417]:
+                - generic [ref=f3e420] [cursor=pointer]:
+                  - heading "Alice Chen" [level=4] [ref=f3e3769]
+                  - paragraph [ref=f3e422]:
+                    - text: 1 hour ago .
+                    - link "Public" [ref=f3e3770]:
+                      - /url: "#0"
+                - button [ref=f3e426] [cursor=pointer]
+              - heading "nice" [level=4] [ref=f3e3771]
+            - generic [ref=f3e432]:
+              - paragraph [ref=f3e434] [cursor=pointer]: "1"
+              - paragraph [ref=f3e436]:
+                - link "0 Comments" [ref=f3e3772] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e438]:
+              - button [ref=f3e3773] [cursor=pointer]
+              - button [ref=f3e3774] [cursor=pointer]
+              - button [ref=f3e3775] [cursor=pointer]
+            - generic [ref=f3e460]:
+              - textbox "Write a comment" [ref=f3e3776]
+              - generic [ref=f3e465]:
+                - button [ref=f3e466] [cursor=pointer]
+                - button [ref=f3e469] [cursor=pointer]
+          - generic [ref=f3e473]:
+            - generic [ref=f3e474]:
+              - generic [ref=f3e475]:
+                - generic [ref=f3e478] [cursor=pointer]:
+                  - heading "Alice Chen" [level=4] [ref=f3e3777]
+                  - paragraph [ref=f3e480]:
+                    - text: 1 hour ago .
+                    - link "Public" [ref=f3e3778]:
+                      - /url: "#0"
+                - button [ref=f3e484] [cursor=pointer]
+              - heading "hi there" [level=4] [ref=f3e3779]
+            - generic [ref=f3e490]:
+              - paragraph [ref=f3e492] [cursor=pointer]: "1"
+              - paragraph [ref=f3e494]:
+                - link "1 Comment" [ref=f3e3780] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e496]:
+              - button [ref=f3e3781] [cursor=pointer]
+              - button [ref=f3e3782] [cursor=pointer]
+              - button [ref=f3e3783] [cursor=pointer]
+            - generic [ref=f3e518]:
+              - textbox "Write a comment" [ref=f3e3784]
+              - generic [ref=f3e523]:
+                - button [ref=f3e524] [cursor=pointer]
+                - button [ref=f3e527] [cursor=pointer]
+            - generic [ref=f3e531]:
+              - link [ref=f3e533] [cursor=pointer]:
+                - /url: "#0"
+              - generic [ref=f3e535]:
+                - link [ref=f3e3785] [cursor=pointer]:
+                  - /url: "#0"
+                  - heading "Alice Chen" [level=4] [ref=f3e3786]
+                - paragraph [ref=f3e541]: hi
+                - generic [ref=f3e542] [cursor=pointer]: "0"
+                - list [ref=f3e552]:
+                  - listitem [ref=f3e553]: Like.
+                  - listitem [ref=f3e554]: Reply.
+                  - listitem [ref=f3e555]: Share
+                  - listitem [ref=f3e556]:
+                    - generic [ref=f3e557] [cursor=pointer]: .1h
+          - generic [ref=f3e558]:
+            - generic [ref=f3e559]:
+              - generic [ref=f3e560]:
+                - generic [ref=f3e563] [cursor=pointer]:
+                  - heading "Eva Santos" [level=4] [ref=f3e3787]
+                  - paragraph [ref=f3e565]:
+                    - text: 19 days ago .
+                    - link "Public" [ref=f3e3788]:
+                      - /url: "#0"
+                - button [ref=f3e569] [cursor=pointer]
+              - 'heading "Reflecting on 10 years in tech: the tools changed, the paradigms shifted, but the fundamentals remain. Problem-solving, communication, and empathy never go out of style." [level=4] [ref=f3e3789]'
+            - generic [ref=f3e575]:
+              - paragraph [ref=f3e577] [cursor=pointer]: "5"
+              - paragraph [ref=f3e579]:
+                - link "6 Comments" [ref=f3e3790] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e581]:
+              - button [ref=f3e3791] [cursor=pointer]
+              - button [ref=f3e3792] [cursor=pointer]
+              - button [ref=f3e3793] [cursor=pointer]
+            - generic [ref=f3e603]:
+              - textbox "Write a comment" [ref=f3e3794]
+              - generic [ref=f3e608]:
+                - button [ref=f3e609] [cursor=pointer]
+                - button [ref=f3e612] [cursor=pointer]
+            - generic [ref=f3e615]:
+              - generic [ref=f3e616]:
+                - link [ref=f3e618] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e620]:
+                  - link [ref=f3e3795] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Iris Johansson" [level=4] [ref=f3e3796]
+                  - paragraph [ref=f3e626]: Just tried this pattern in our codebase. Works beautifully. Thanks for the tip!
+                  - generic [ref=f3e627] [cursor=pointer]: "0"
+                  - list [ref=f3e637]:
+                    - listitem [ref=f3e638]: Like.
+                    - listitem [ref=f3e639]: Reply.
+                    - listitem [ref=f3e640]: Share
+                    - listitem [ref=f3e641]:
+                      - generic [ref=f3e642] [cursor=pointer]: .8h
+              - generic [ref=f3e643]:
+                - link [ref=f3e645] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e647]:
+                  - link [ref=f3e3797] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "David Kim" [level=4] [ref=f3e3798]
+                  - paragraph [ref=f3e653]: How did you handle the migration without downtime? Would love to learn more.
+                  - generic [ref=f3e654] [cursor=pointer]: "0"
+                  - list [ref=f3e664]:
+                    - listitem [ref=f3e665]: Like.
+                    - listitem [ref=f3e666]: Reply.
+                    - listitem [ref=f3e667]: Share
+                    - listitem [ref=f3e668]:
+                      - generic [ref=f3e669] [cursor=pointer]: .10h
+              - generic [ref=f3e670]:
+                - link [ref=f3e672] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e674]:
+                  - link [ref=f3e3799] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Grace Liu" [level=4] [ref=f3e3800]
+                  - paragraph [ref=f3e680]: Love this! Bookmarking for later reference.
+                  - generic [ref=f3e681] [cursor=pointer]: "0"
+                  - list [ref=f3e691]:
+                    - listitem [ref=f3e692]: Like.
+                    - listitem [ref=f3e693]: Reply.
+                    - listitem [ref=f3e694]: Share
+                    - listitem [ref=f3e695]:
+                      - generic [ref=f3e696] [cursor=pointer]: .10h
+              - generic [ref=f3e697]:
+                - link [ref=f3e699] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e701]:
+                  - link [ref=f3e3801] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Bob Martinez" [level=4] [ref=f3e3802]
+                  - paragraph [ref=f3e707]: Great insights! I've been thinking about this too.
+                  - generic [ref=f3e708] [cursor=pointer]: "0"
+                  - list [ref=f3e718]:
+                    - listitem [ref=f3e719]: Like.
+                    - listitem [ref=f3e720]: Reply.
+                    - listitem [ref=f3e721]: Share
+                    - listitem [ref=f3e722]:
+                      - generic [ref=f3e723] [cursor=pointer]: .9h
+              - generic [ref=f3e724]:
+                - link [ref=f3e726] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e728]:
+                  - link [ref=f3e3803] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Rosa Hernandez" [level=4] [ref=f3e3804]
+                  - paragraph [ref=f3e734]: Thanks for sharing your experience. Very helpful!
+                  - generic [ref=f3e735] [cursor=pointer]: "2"
+                  - list [ref=f3e745]:
+                    - listitem [ref=f3e746]: Like.
+                    - listitem [ref=f3e747]: Reply.
+                    - listitem [ref=f3e748]: Share
+                    - listitem [ref=f3e749]:
+                      - generic [ref=f3e750] [cursor=pointer]: .11h
+              - generic [ref=f3e751]:
+                - link [ref=f3e753] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e755]:
+                  - link [ref=f3e3805] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Quinn Taylor" [level=4] [ref=f3e3806]
+                  - paragraph [ref=f3e761]: How did you handle the migration without downtime? Would love to learn more.
+                  - generic [ref=f3e762] [cursor=pointer]: "0"
+                  - list [ref=f3e772]:
+                    - listitem [ref=f3e773]: Like.
+                    - listitem [ref=f3e774]: Reply.
+                    - listitem [ref=f3e775]: Share
+                    - listitem [ref=f3e776]:
+                      - generic [ref=f3e777] [cursor=pointer]: .20h
+          - generic [ref=f3e778]:
+            - generic [ref=f3e779]:
+              - generic [ref=f3e780]:
+                - generic [ref=f3e783] [cursor=pointer]:
+                  - heading "Jack Thompson" [level=4] [ref=f3e3807]
+                  - paragraph [ref=f3e785]:
+                    - text: 20 days ago .
+                    - link "Public" [ref=f3e3808]:
+                      - /url: "#0"
+                - button [ref=f3e789] [cursor=pointer]
+              - 'heading "Workshop today: ''Building accessible web applications''. Covered ARIA labels, keyboard navigation, screen reader testing, and color contrast. Accessibility is not optional — it''s fundamental." [level=4] [ref=f3e3809]'
+            - generic [ref=f3e795]:
+              - paragraph [ref=f3e797] [cursor=pointer]: "7"
+              - paragraph [ref=f3e799]:
+                - link "2 Comments" [ref=f3e3810] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e801]:
+              - button [ref=f3e3811] [cursor=pointer]
+              - button [ref=f3e3812] [cursor=pointer]
+              - button [ref=f3e3813] [cursor=pointer]
+            - generic [ref=f3e823]:
+              - textbox "Write a comment" [ref=f3e3814]
+              - generic [ref=f3e828]:
+                - button [ref=f3e829] [cursor=pointer]
+                - button [ref=f3e832] [cursor=pointer]
+            - generic [ref=f3e835]:
+              - generic [ref=f3e836]:
+                - link [ref=f3e838] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e840]:
+                  - link [ref=f3e3815] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Paul Jackson" [level=4] [ref=f3e3816]
+                  - paragraph [ref=f3e846]: That debugging story gave me second-hand anxiety. Glad you figured it out!
+                  - generic [ref=f3e847] [cursor=pointer]: "0"
+                  - list [ref=f3e857]:
+                    - listitem [ref=f3e858]: Like.
+                    - listitem [ref=f3e859]: Reply.
+                    - listitem [ref=f3e860]: Share
+                    - listitem [ref=f3e861]:
+                      - generic [ref=f3e862] [cursor=pointer]: .5h
+              - generic [ref=f3e863]:
+                - link [ref=f3e865] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e867]:
+                  - link [ref=f3e3817] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Carol Nguyen" [level=4] [ref=f3e3818]
+                  - paragraph [ref=f3e873]: Solid write-up. The diagrams really helped understand the architecture.
+                  - generic [ref=f3e874] [cursor=pointer]: "0"
+                  - list [ref=f3e884]:
+                    - listitem [ref=f3e885]: Like.
+                    - listitem [ref=f3e886]: Reply.
+                    - listitem [ref=f3e887]: Share
+                    - listitem [ref=f3e888]:
+                      - generic [ref=f3e889] [cursor=pointer]: .7h
+          - generic [ref=f3e890]:
+            - generic [ref=f3e891]:
+              - generic [ref=f3e892]:
+                - generic [ref=f3e895] [cursor=pointer]:
+                  - heading "Noah Anderson" [level=4] [ref=f3e3819]
+                  - paragraph [ref=f3e897]:
+                    - text: 21 days ago .
+                    - link "Public" [ref=f3e3820]:
+                      - /url: "#0"
+                - button [ref=f3e901] [cursor=pointer]
+              - heading "Just hit 10,000 contributions on GitHub. Not that numbers matter, but it's a nice reminder of consistency over time. Small commits every day add up to big impact." [level=4] [ref=f3e3821]
+            - generic [ref=f3e907]:
+              - paragraph [ref=f3e909] [cursor=pointer]: "1"
+              - paragraph [ref=f3e911]:
+                - link "1 Comment" [ref=f3e3822] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e913]:
+              - button [ref=f3e3823] [cursor=pointer]
+              - button [ref=f3e3824] [cursor=pointer]
+              - button [ref=f3e3825] [cursor=pointer]
+            - generic [ref=f3e935]:
+              - textbox "Write a comment" [ref=f3e3826]
+              - generic [ref=f3e940]:
+                - button [ref=f3e941] [cursor=pointer]
+                - button [ref=f3e944] [cursor=pointer]
+            - generic [ref=f3e948]:
+              - link [ref=f3e950] [cursor=pointer]:
+                - /url: "#0"
+              - generic [ref=f3e952]:
+                - link [ref=f3e3827] [cursor=pointer]:
+                  - /url: "#0"
+                  - heading "Frank Okafor" [level=4] [ref=f3e3828]
+                - paragraph [ref=f3e958]: Wow, didn't know you could do that with TypeScript. TIL!
+                - generic [ref=f3e959] [cursor=pointer]: "0"
+                - list [ref=f3e969]:
+                  - listitem [ref=f3e970]: Like.
+                  - listitem [ref=f3e971]: Reply.
+                  - listitem [ref=f3e972]: Share
+                  - listitem [ref=f3e973]:
+                    - generic [ref=f3e974] [cursor=pointer]: .15h
+          - generic [ref=f3e975]:
+            - generic [ref=f3e976]:
+              - generic [ref=f3e977]:
+                - generic [ref=f3e980] [cursor=pointer]:
+                  - heading "Quinn Taylor" [level=4] [ref=f3e3829]
+                  - paragraph [ref=f3e982]:
+                    - text: 28 days ago .
+                    - link "Public" [ref=f3e3830]:
+                      - /url: "#0"
+                - button [ref=f3e986] [cursor=pointer]
+              - heading "Rethinking error handling patterns in our codebase. We're moving away from try-catch spaghetti toward a more functional approach with Result types. Early feedback from the team is positive." [level=4] [ref=f3e3831]
+            - generic [ref=f3e992]:
+              - paragraph [ref=f3e994] [cursor=pointer]: "5"
+              - paragraph [ref=f3e996]:
+                - link "1 Comment" [ref=f3e3832] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e998]:
+              - button [ref=f3e3833] [cursor=pointer]
+              - button [ref=f3e3834] [cursor=pointer]
+              - button [ref=f3e3835] [cursor=pointer]
+            - generic [ref=f3e1020]:
+              - textbox "Write a comment" [ref=f3e3836]
+              - generic [ref=f3e1025]:
+                - button [ref=f3e1026] [cursor=pointer]
+                - button [ref=f3e1029] [cursor=pointer]
+            - generic [ref=f3e1033]:
+              - link [ref=f3e1035] [cursor=pointer]:
+                - /url: "#0"
+              - generic [ref=f3e1037]:
+                - link [ref=f3e3837] [cursor=pointer]:
+                  - /url: "#0"
+                  - heading "Noah Anderson" [level=4] [ref=f3e3838]
+                - paragraph [ref=f3e1043]: Wow, didn't know you could do that with TypeScript. TIL!
+                - generic [ref=f3e1044] [cursor=pointer]: "0"
+                - list [ref=f3e1054]:
+                  - listitem [ref=f3e1055]: Like.
+                  - listitem [ref=f3e1056]: Reply.
+                  - listitem [ref=f3e1057]: Share
+                  - listitem [ref=f3e1058]:
+                    - generic [ref=f3e1059] [cursor=pointer]: .19h
+          - generic [ref=f3e1060]:
+            - generic [ref=f3e1061]:
+              - generic [ref=f3e1062]:
+                - generic [ref=f3e1065] [cursor=pointer]:
+                  - heading "Mia Robinson" [level=4] [ref=f3e3839]
+                  - paragraph [ref=f3e1067]:
+                    - text: 7 days ago .
+                    - link "Public" [ref=f3e3840]:
+                      - /url: "#0"
+                - button [ref=f3e1071] [cursor=pointer]
+              - 'heading "Performance optimization story: A single database index turned a 30-second query into 50 milliseconds. Indexing is both art and science. Know your query patterns before adding indexes." [level=4] [ref=f3e3841]'
+            - generic [ref=f3e1077]:
+              - paragraph [ref=f3e1079] [cursor=pointer]: "5"
+              - paragraph [ref=f3e1081]:
+                - link "6 Comments" [ref=f3e3842] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e1083]:
+              - button [ref=f3e3843] [cursor=pointer]
+              - button [ref=f3e3844] [cursor=pointer]
+              - button [ref=f3e3845] [cursor=pointer]
+            - generic [ref=f3e1105]:
+              - textbox "Write a comment" [ref=f3e3846]
+              - generic [ref=f3e1110]:
+                - button [ref=f3e1111] [cursor=pointer]
+                - button [ref=f3e1114] [cursor=pointer]
+            - generic [ref=f3e1117]:
+              - generic [ref=f3e1118]:
+                - link [ref=f3e1120] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1122]:
+                  - link [ref=f3e3847] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Frank Okafor" [level=4] [ref=f3e3848]
+                  - paragraph [ref=f3e1128]: Love this! Bookmarking for later reference.
+                  - generic [ref=f3e1129] [cursor=pointer]: "0"
+                  - list [ref=f3e1139]:
+                    - listitem [ref=f3e1140]: Like.
+                    - listitem [ref=f3e1141]: Reply.
+                    - listitem [ref=f3e1142]: Share
+                    - listitem [ref=f3e1143]:
+                      - generic [ref=f3e1144] [cursor=pointer]: .19h
+              - generic [ref=f3e1145]:
+                - link [ref=f3e1147] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1149]:
+                  - link [ref=f3e3849] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Sam Wilson" [level=4] [ref=f3e3850]
+                  - paragraph [ref=f3e1155]: Love this! Bookmarking for later reference.
+                  - generic [ref=f3e1156] [cursor=pointer]: "0"
+                  - list [ref=f3e1166]:
+                    - listitem [ref=f3e1167]: Like.
+                    - listitem [ref=f3e1168]: Reply.
+                    - listitem [ref=f3e1169]: Share
+                    - listitem [ref=f3e1170]:
+                      - generic [ref=f3e1171] [cursor=pointer]: .8h
+              - generic [ref=f3e1172]:
+                - link [ref=f3e1174] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1176]:
+                  - link [ref=f3e3851] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Kate Williams" [level=4] [ref=f3e3852]
+                  - paragraph [ref=f3e1182]: Thanks for sharing your experience. Very helpful!
+                  - generic [ref=f3e1183] [cursor=pointer]: "0"
+                  - list [ref=f3e1193]:
+                    - listitem [ref=f3e1194]: Like.
+                    - listitem [ref=f3e1195]: Reply.
+                    - listitem [ref=f3e1196]: Share
+                    - listitem [ref=f3e1197]:
+                      - generic [ref=f3e1198] [cursor=pointer]: .18h
+              - generic [ref=f3e1199]:
+                - link [ref=f3e1201] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1203]:
+                  - link [ref=f3e3853] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Olivia Brown" [level=4] [ref=f3e3854]
+                  - paragraph [ref=f3e1209]: Respectfully disagree on this one. In my experience, a different approach worked better because...
+                  - generic [ref=f3e1210] [cursor=pointer]: "0"
+                  - list [ref=f3e1220]:
+                    - listitem [ref=f3e1221]: Like.
+                    - listitem [ref=f3e1222]: Reply.
+                    - listitem [ref=f3e1223]: Share
+                    - listitem [ref=f3e1224]:
+                      - generic [ref=f3e1225] [cursor=pointer]: .14h
+              - generic [ref=f3e1226]:
+                - link [ref=f3e1228] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1230]:
+                  - link [ref=f3e3855] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Olivia Brown" [level=4] [ref=f3e3856]
+                  - paragraph [ref=f3e1236]: Thanks for sharing your experience. Very helpful!
+                  - generic [ref=f3e1237] [cursor=pointer]: "0"
+                  - list [ref=f3e1247]:
+                    - listitem [ref=f3e1248]: Like.
+                    - listitem [ref=f3e1249]: Reply.
+                    - listitem [ref=f3e1250]: Share
+                    - listitem [ref=f3e1251]:
+                      - generic [ref=f3e1252] [cursor=pointer]: .19h
+              - generic [ref=f3e1253]:
+                - link [ref=f3e1255] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1257]:
+                  - link [ref=f3e3857] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Tina Chang" [level=4] [ref=f3e3858]
+                  - paragraph [ref=f3e1263]: How did you handle the migration without downtime? Would love to learn more.
+                  - generic [ref=f3e1264] [cursor=pointer]: "0"
+                  - list [ref=f3e1274]:
+                    - listitem [ref=f3e1275]: Like.
+                    - listitem [ref=f3e1276]: Reply.
+                    - listitem [ref=f3e1277]: Share
+                    - listitem [ref=f3e1278]:
+                      - generic [ref=f3e1279] [cursor=pointer]: .9h
+          - generic [ref=f3e1280]:
+            - generic [ref=f3e1281]:
+              - generic [ref=f3e1282]:
+                - generic [ref=f3e1285] [cursor=pointer]:
+                  - heading "Carol Nguyen" [level=4] [ref=f3e3859]
+                  - paragraph [ref=f3e1287]:
+                    - text: 17 days ago .
+                    - link "Public" [ref=f3e3860]:
+                      - /url: "#0"
+                - button [ref=f3e1291] [cursor=pointer]
+              - heading "Spent the day mentoring at a coding bootcamp. The energy and curiosity of new developers is infectious. Reminded me why I fell in love with programming in the first place." [level=4] [ref=f3e3861]
+            - generic [ref=f3e1297]:
+              - paragraph [ref=f3e1299] [cursor=pointer]: "6"
+              - paragraph [ref=f3e1301]:
+                - link "6 Comments" [ref=f3e3862] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e1303]:
+              - button [ref=f3e3863] [cursor=pointer]
+              - button [ref=f3e3864] [cursor=pointer]
+              - button [ref=f3e3865] [cursor=pointer]
+            - generic [ref=f3e1325]:
+              - textbox "Write a comment" [ref=f3e3866]
+              - generic [ref=f3e1330]:
+                - button [ref=f3e1331] [cursor=pointer]
+                - button [ref=f3e1334] [cursor=pointer]
+            - generic [ref=f3e1337]:
+              - generic [ref=f3e1338]:
+                - link [ref=f3e1340] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1342]:
+                  - link [ref=f3e3867] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Noah Anderson" [level=4] [ref=f3e3868]
+                  - paragraph [ref=f3e1348]: Could you elaborate on the caching strategy? Curious about your approach.
+                  - generic [ref=f3e1349] [cursor=pointer]: "0"
+                  - list [ref=f3e1359]:
+                    - listitem [ref=f3e1360]: Like.
+                    - listitem [ref=f3e1361]: Reply.
+                    - listitem [ref=f3e1362]: Share
+                    - listitem [ref=f3e1363]:
+                      - generic [ref=f3e1364] [cursor=pointer]: .15h
+              - generic [ref=f3e1365]:
+                - link [ref=f3e1367] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1369]:
+                  - link [ref=f3e3869] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Bob Martinez" [level=4] [ref=f3e3870]
+                  - paragraph [ref=f3e1375]: Thanks for sharing your experience. Very helpful!
+                  - generic [ref=f3e1376] [cursor=pointer]: "0"
+                  - list [ref=f3e1386]:
+                    - listitem [ref=f3e1387]: Like.
+                    - listitem [ref=f3e1388]: Reply.
+                    - listitem [ref=f3e1389]: Share
+                    - listitem [ref=f3e1390]:
+                      - generic [ref=f3e1391] [cursor=pointer]: .1d
+              - generic [ref=f3e1392]:
+                - link [ref=f3e1394] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1396]:
+                  - link [ref=f3e3871] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Olivia Brown" [level=4] [ref=f3e3872]
+                  - paragraph [ref=f3e1402]: Your desk setup is goals. What monitor arm are you using?
+                  - generic [ref=f3e1403] [cursor=pointer]: "0"
+                  - list [ref=f3e1413]:
+                    - listitem [ref=f3e1414]: Like.
+                    - listitem [ref=f3e1415]: Reply.
+                    - listitem [ref=f3e1416]: Share
+                    - listitem [ref=f3e1417]:
+                      - generic [ref=f3e1418] [cursor=pointer]: .21h
+              - generic [ref=f3e1419]:
+                - link [ref=f3e1421] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1423]:
+                  - link [ref=f3e3873] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Rosa Hernandez" [level=4] [ref=f3e3874]
+                  - paragraph [ref=f3e1429]: Thanks for sharing your experience. Very helpful!
+                  - generic [ref=f3e1430] [cursor=pointer]: "0"
+                  - list [ref=f3e1440]:
+                    - listitem [ref=f3e1441]: Like.
+                    - listitem [ref=f3e1442]: Reply.
+                    - listitem [ref=f3e1443]: Share
+                    - listitem [ref=f3e1444]:
+                      - generic [ref=f3e1445] [cursor=pointer]: .10h
+              - generic [ref=f3e1446]:
+                - link [ref=f3e1448] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1450]:
+                  - link [ref=f3e3875] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Jack Thompson" [level=4] [ref=f3e3876]
+                  - paragraph [ref=f3e1456]: Been following your journey on this. Congrats on shipping!
+                  - generic [ref=f3e1457] [cursor=pointer]: "2"
+                  - list [ref=f3e1467]:
+                    - listitem [ref=f3e1468]: Like.
+                    - listitem [ref=f3e1469]: Reply.
+                    - listitem [ref=f3e1470]: Share
+                    - listitem [ref=f3e1471]:
+                      - generic [ref=f3e1472] [cursor=pointer]: .5h
+              - generic [ref=f3e1473]:
+                - link [ref=f3e1475] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1477]:
+                  - link [ref=f3e3877] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Kate Williams" [level=4] [ref=f3e3878]
+                  - paragraph [ref=f3e1483]: I had a similar issue last month. Your solution is cleaner than mine.
+                  - generic [ref=f3e1484] [cursor=pointer]: "1"
+                  - list [ref=f3e1494]:
+                    - listitem [ref=f3e1495]: Like.
+                    - listitem [ref=f3e1496]: Reply.
+                    - listitem [ref=f3e1497]: Share
+                    - listitem [ref=f3e1498]:
+                      - generic [ref=f3e1499] [cursor=pointer]: .20h
+          - generic [ref=f3e1500]:
+            - generic [ref=f3e1501]:
+              - generic [ref=f3e1502]:
+                - generic [ref=f3e1505] [cursor=pointer]:
+                  - heading "Paul Jackson" [level=4] [ref=f3e3879]
+                  - paragraph [ref=f3e1507]:
+                    - text: 23 days ago .
+                    - link "Public" [ref=f3e3880]:
+                      - /url: "#0"
+                - button [ref=f3e1511] [cursor=pointer]
+              - heading "Design systems are not just component libraries. They are a shared language between designers and developers. Investing in a good design system pays dividends in consistency and speed." [level=4] [ref=f3e3881]
+            - generic [ref=f3e1518]:
+              - paragraph [ref=f3e1520] [cursor=pointer]: "4"
+              - paragraph [ref=f3e1522]:
+                - link "6 Comments" [ref=f3e3882] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e1524]:
+              - button [ref=f3e3883] [cursor=pointer]
+              - button [ref=f3e3884] [cursor=pointer]
+              - button [ref=f3e3885] [cursor=pointer]
+            - generic [ref=f3e1546]:
+              - textbox "Write a comment" [ref=f3e3886]
+              - generic [ref=f3e1551]:
+                - button [ref=f3e1552] [cursor=pointer]
+                - button [ref=f3e1555] [cursor=pointer]
+            - generic [ref=f3e1558]:
+              - generic [ref=f3e1559]:
+                - link [ref=f3e1561] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1563]:
+                  - link [ref=f3e3887] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Rosa Hernandez" [level=4] [ref=f3e3888]
+                  - paragraph [ref=f3e1569]: Love this! Bookmarking for later reference.
+                  - generic [ref=f3e1570] [cursor=pointer]: "0"
+                  - list [ref=f3e1580]:
+                    - listitem [ref=f3e1581]: Like.
+                    - listitem [ref=f3e1582]: Reply.
+                    - listitem [ref=f3e1583]: Share
+                    - listitem [ref=f3e1584]:
+                      - generic [ref=f3e1585] [cursor=pointer]: .4h
+              - generic [ref=f3e1586]:
+                - link [ref=f3e1588] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1590]:
+                  - link [ref=f3e3889] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Iris Johansson" [level=4] [ref=f3e3890]
+                  - paragraph [ref=f3e1596]: Have you considered the edge case where... never mind, you covered it in the follow-up.
+                  - generic [ref=f3e1597] [cursor=pointer]: "0"
+                  - list [ref=f3e1607]:
+                    - listitem [ref=f3e1608]: Like.
+                    - listitem [ref=f3e1609]: Reply.
+                    - listitem [ref=f3e1610]: Share
+                    - listitem [ref=f3e1611]:
+                      - generic [ref=f3e1612] [cursor=pointer]: .1d
+              - generic [ref=f3e1613]:
+                - link [ref=f3e1615] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1617]:
+                  - link [ref=f3e3891] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Henry Patel" [level=4] [ref=f3e3892]
+                  - paragraph [ref=f3e1623]: Respectfully disagree on this one. In my experience, a different approach worked better because...
+                  - generic [ref=f3e1624] [cursor=pointer]: "0"
+                  - list [ref=f3e1634]:
+                    - listitem [ref=f3e1635]: Like.
+                    - listitem [ref=f3e1636]: Reply.
+                    - listitem [ref=f3e1637]: Share
+                    - listitem [ref=f3e1638]:
+                      - generic [ref=f3e1639] [cursor=pointer]: .1d
+              - generic [ref=f3e1640]:
+                - link [ref=f3e1642] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1644]:
+                  - link [ref=f3e3893] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Henry Patel" [level=4] [ref=f3e3894]
+                  - paragraph [ref=f3e1650]: This is exactly what I needed to read today. Thank you!
+                  - generic [ref=f3e1651] [cursor=pointer]: "0"
+                  - list [ref=f3e1661]:
+                    - listitem [ref=f3e1662]: Like.
+                    - listitem [ref=f3e1663]: Reply.
+                    - listitem [ref=f3e1664]: Share
+                    - listitem [ref=f3e1665]:
+                      - generic [ref=f3e1666] [cursor=pointer]: .17h
+              - generic [ref=f3e1667]:
+                - link [ref=f3e1669] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1671]:
+                  - link [ref=f3e3895] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Sam Wilson" [level=4] [ref=f3e3896]
+                  - paragraph [ref=f3e1677]: You make a compelling point about developer experience. I'm sold.
+                  - generic [ref=f3e1678] [cursor=pointer]: "4"
+                  - list [ref=f3e1688]:
+                    - listitem [ref=f3e1689]: Like.
+                    - listitem [ref=f3e1690]: Reply.
+                    - listitem [ref=f3e1691]: Share
+                    - listitem [ref=f3e1692]:
+                      - generic [ref=f3e1693] [cursor=pointer]: .7h
+              - generic [ref=f3e1694]:
+                - link [ref=f3e1696] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1698]:
+                  - link [ref=f3e3897] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Olivia Brown" [level=4] [ref=f3e3898]
+                  - paragraph [ref=f3e1704]: Could you elaborate on the caching strategy? Curious about your approach.
+                  - generic [ref=f3e1705] [cursor=pointer]: "0"
+                  - list [ref=f3e1715]:
+                    - listitem [ref=f3e1716]: Like.
+                    - listitem [ref=f3e1717]: Reply.
+                    - listitem [ref=f3e1718]: Share
+                    - listitem [ref=f3e1719]:
+                      - generic [ref=f3e1720] [cursor=pointer]: .20h
+          - generic [ref=f3e1721]:
+            - generic [ref=f3e1722]:
+              - generic [ref=f3e1723]:
+                - generic [ref=f3e1726] [cursor=pointer]:
+                  - heading "Grace Liu" [level=4] [ref=f3e3899]
+                  - paragraph [ref=f3e1728]:
+                    - text: 2 days ago .
+                    - link "Public" [ref=f3e3900]:
+                      - /url: "#0"
+                - button [ref=f3e1732] [cursor=pointer]
+              - heading "One year ago today I quit my job to freelance full-time. Best decision I ever made. Scary at first, but the freedom to choose my projects and schedule has been transformative." [level=4] [ref=f3e3901]
+            - generic [ref=f3e1738]:
+              - paragraph [ref=f3e1740] [cursor=pointer]: "2"
+              - paragraph [ref=f3e1742]:
+                - link "2 Comments" [ref=f3e3902] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e1744]:
+              - button [ref=f3e3903] [cursor=pointer]
+              - button [ref=f3e3904] [cursor=pointer]
+              - button [ref=f3e3905] [cursor=pointer]
+            - generic [ref=f3e1766]:
+              - textbox "Write a comment" [ref=f3e3906]
+              - generic [ref=f3e1771]:
+                - button [ref=f3e1772] [cursor=pointer]
+                - button [ref=f3e1775] [cursor=pointer]
+            - generic [ref=f3e1778]:
+              - generic [ref=f3e1779]:
+                - link [ref=f3e1781] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1783]:
+                  - link [ref=f3e3907] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Carol Nguyen" [level=4] [ref=f3e3908]
+                  - paragraph [ref=f3e1789]: Solid write-up. The diagrams really helped understand the architecture.
+                  - generic [ref=f3e1790] [cursor=pointer]: "0"
+                  - list [ref=f3e1800]:
+                    - listitem [ref=f3e1801]: Like.
+                    - listitem [ref=f3e1802]: Reply.
+                    - listitem [ref=f3e1803]: Share
+                    - listitem [ref=f3e1804]:
+                      - generic [ref=f3e1805] [cursor=pointer]: .12h
+              - generic [ref=f3e1806]:
+                - link [ref=f3e1808] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1810]:
+                  - link [ref=f3e3909] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Leo Garcia" [level=4] [ref=f3e3910]
+                  - paragraph [ref=f3e1816]: Your desk setup is goals. What monitor arm are you using?
+                  - generic [ref=f3e1817] [cursor=pointer]: "0"
+                  - list [ref=f3e1827]:
+                    - listitem [ref=f3e1828]: Like.
+                    - listitem [ref=f3e1829]: Reply.
+                    - listitem [ref=f3e1830]: Share
+                    - listitem [ref=f3e1831]:
+                      - generic [ref=f3e1832] [cursor=pointer]: .1d
+          - generic [ref=f3e1833]:
+            - generic [ref=f3e1834]:
+              - generic [ref=f3e1835]:
+                - generic [ref=f3e1838] [cursor=pointer]:
+                  - heading "Kate Williams" [level=4] [ref=f3e3911]
+                  - paragraph [ref=f3e1840]:
+                    - text: 9 days ago .
+                    - link "Public" [ref=f3e3912]:
+                      - /url: "#0"
+                - button [ref=f3e1844] [cursor=pointer]
+              - 'heading "Just published a deep dive into WebAssembly performance benchmarks. Spoiler: it''s fast, but Rust and C still have different tradeoffs than you might expect. Full analysis on my blog." [level=4] [ref=f3e3913]'
+            - generic [ref=f3e1850]:
+              - paragraph [ref=f3e1852] [cursor=pointer]: "5"
+              - paragraph [ref=f3e1854]:
+                - link "4 Comments" [ref=f3e3914] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e1856]:
+              - button [ref=f3e3915] [cursor=pointer]
+              - button [ref=f3e3916] [cursor=pointer]
+              - button [ref=f3e3917] [cursor=pointer]
+            - generic [ref=f3e1878]:
+              - textbox "Write a comment" [ref=f3e3918]
+              - generic [ref=f3e1883]:
+                - button [ref=f3e1884] [cursor=pointer]
+                - button [ref=f3e1887] [cursor=pointer]
+            - generic [ref=f3e1890]:
+              - generic [ref=f3e1891]:
+                - link [ref=f3e1893] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1895]:
+                  - link [ref=f3e3919] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Noah Anderson" [level=4] [ref=f3e3920]
+                  - paragraph [ref=f3e1901]: This is exactly what I needed to read today. Thank you!
+                  - generic [ref=f3e1902] [cursor=pointer]: "0"
+                  - list [ref=f3e1912]:
+                    - listitem [ref=f3e1913]: Like.
+                    - listitem [ref=f3e1914]: Reply.
+                    - listitem [ref=f3e1915]: Share
+                    - listitem [ref=f3e1916]:
+                      - generic [ref=f3e1917] [cursor=pointer]: .10h
+              - generic [ref=f3e1918]:
+                - link [ref=f3e1920] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1922]:
+                  - link [ref=f3e3921] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Paul Jackson" [level=4] [ref=f3e3922]
+                  - paragraph [ref=f3e1928]: Respectfully disagree on this one. In my experience, a different approach worked better because...
+                  - generic [ref=f3e1929] [cursor=pointer]: "0"
+                  - list [ref=f3e1939]:
+                    - listitem [ref=f3e1940]: Like.
+                    - listitem [ref=f3e1941]: Reply.
+                    - listitem [ref=f3e1942]: Share
+                    - listitem [ref=f3e1943]:
+                      - generic [ref=f3e1944] [cursor=pointer]: .19h
+              - generic [ref=f3e1945]:
+                - link [ref=f3e1947] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1949]:
+                  - link [ref=f3e3923] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Carol Nguyen" [level=4] [ref=f3e3924]
+                  - paragraph [ref=f3e1955]: How did you handle the migration without downtime? Would love to learn more.
+                  - generic [ref=f3e1956] [cursor=pointer]: "0"
+                  - list [ref=f3e1966]:
+                    - listitem [ref=f3e1967]: Like.
+                    - listitem [ref=f3e1968]: Reply.
+                    - listitem [ref=f3e1969]: Share
+                    - listitem [ref=f3e1970]:
+                      - generic [ref=f3e1971] [cursor=pointer]: .23h
+              - generic [ref=f3e1972]:
+                - link [ref=f3e1974] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e1976]:
+                  - link [ref=f3e3925] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Paul Jackson" [level=4] [ref=f3e3926]
+                  - paragraph [ref=f3e1982]: Could you elaborate on the caching strategy? Curious about your approach.
+                  - generic [ref=f3e1983] [cursor=pointer]: "0"
+                  - list [ref=f3e1993]:
+                    - listitem [ref=f3e1994]: Like.
+                    - listitem [ref=f3e1995]: Reply.
+                    - listitem [ref=f3e1996]: Share
+                    - listitem [ref=f3e1997]:
+                      - generic [ref=f3e1998] [cursor=pointer]: .12h
+          - generic [ref=f3e1999]:
+            - generic [ref=f3e2000]:
+              - generic [ref=f3e2001]:
+                - generic [ref=f3e2004] [cursor=pointer]:
+                  - heading "Frank Okafor" [level=4] [ref=f3e3927]
+                  - paragraph [ref=f3e2006]:
+                    - text: 7 days ago .
+                    - link "Public" [ref=f3e3928]:
+                      - /url: "#0"
+                - button [ref=f3e2010] [cursor=pointer]
+              - heading "The local farmers market on Saturday mornings is my weekly reset. Fresh produce, homemade bread, and community vibes. If you're remote, find a routine that grounds you outside of screens." [level=4] [ref=f3e3929]
+            - generic [ref=f3e2017]:
+              - paragraph [ref=f3e2019] [cursor=pointer]: "5"
+              - paragraph [ref=f3e2021]:
+                - link "2 Comments" [ref=f3e3930] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e2023]:
+              - button [ref=f3e3931] [cursor=pointer]
+              - button [ref=f3e3932] [cursor=pointer]
+              - button [ref=f3e3933] [cursor=pointer]
+            - generic [ref=f3e2045]:
+              - textbox "Write a comment" [ref=f3e3934]
+              - generic [ref=f3e2050]:
+                - button [ref=f3e2051] [cursor=pointer]
+                - button [ref=f3e2054] [cursor=pointer]
+            - generic [ref=f3e2057]:
+              - generic [ref=f3e2058]:
+                - link [ref=f3e2060] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2062]:
+                  - link [ref=f3e3935] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Jack Thompson" [level=4] [ref=f3e3936]
+                  - paragraph [ref=f3e2068]: That debugging story gave me second-hand anxiety. Glad you figured it out!
+                  - generic [ref=f3e2069] [cursor=pointer]: "0"
+                  - list [ref=f3e2079]:
+                    - listitem [ref=f3e2080]: Like.
+                    - listitem [ref=f3e2081]: Reply.
+                    - listitem [ref=f3e2082]: Share
+                    - listitem [ref=f3e2083]:
+                      - generic [ref=f3e2084] [cursor=pointer]: .14h
+              - generic [ref=f3e2085]:
+                - link [ref=f3e2087] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2089]:
+                  - link [ref=f3e3937] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Kate Williams" [level=4] [ref=f3e3938]
+                  - paragraph [ref=f3e2095]: Your desk setup is goals. What monitor arm are you using?
+                  - generic [ref=f3e2096] [cursor=pointer]: "1"
+                  - list [ref=f3e2106]:
+                    - listitem [ref=f3e2107]: Like.
+                    - listitem [ref=f3e2108]: Reply.
+                    - listitem [ref=f3e2109]: Share
+                    - listitem [ref=f3e2110]:
+                      - generic [ref=f3e2111] [cursor=pointer]: .15h
+          - generic [ref=f3e2112]:
+            - generic [ref=f3e2113]:
+              - generic [ref=f3e2114]:
+                - generic [ref=f3e2117] [cursor=pointer]:
+                  - heading "Eva Santos" [level=4] [ref=f3e3939]
+                  - paragraph [ref=f3e2119]:
+                    - text: 17 days ago .
+                    - link "Public" [ref=f3e3940]:
+                      - /url: "#0"
+                - button [ref=f3e2123] [cursor=pointer]
+              - heading "Our startup just closed our Series A! 🎉 $8M to build the future of collaborative development tools. So proud of the team and grateful to our investors who believe in our vision. We're hiring!" [level=4] [ref=f3e3941]
+            - generic [ref=f3e2130]:
+              - paragraph [ref=f3e2132] [cursor=pointer]: "7"
+              - paragraph [ref=f3e2134]:
+                - link "4 Comments" [ref=f3e3942] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e2136]:
+              - button [ref=f3e3943] [cursor=pointer]
+              - button [ref=f3e3944] [cursor=pointer]
+              - button [ref=f3e3945] [cursor=pointer]
+            - generic [ref=f3e2158]:
+              - textbox "Write a comment" [ref=f3e3946]
+              - generic [ref=f3e2163]:
+                - button [ref=f3e2164] [cursor=pointer]
+                - button [ref=f3e2167] [cursor=pointer]
+            - generic [ref=f3e2170]:
+              - generic [ref=f3e2171]:
+                - link [ref=f3e2173] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2175]:
+                  - link [ref=f3e3947] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Alice Chen" [level=4] [ref=f3e3948]
+                  - paragraph [ref=f3e2181]: This is really impressive! Love the approach you took here.
+                  - generic [ref=f3e2182] [cursor=pointer]: "0"
+                  - list [ref=f3e2192]:
+                    - listitem [ref=f3e2193]: Like.
+                    - listitem [ref=f3e2194]: Reply.
+                    - listitem [ref=f3e2195]: Share
+                    - listitem [ref=f3e2196]:
+                      - generic [ref=f3e2197] [cursor=pointer]: .4h
+              - generic [ref=f3e2198]:
+                - link [ref=f3e2200] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2202]:
+                  - link [ref=f3e3949] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Olivia Brown" [level=4] [ref=f3e3950]
+                  - paragraph [ref=f3e2208]: This is exactly what I needed to read today. Thank you!
+                  - generic [ref=f3e2209] [cursor=pointer]: "0"
+                  - list [ref=f3e2219]:
+                    - listitem [ref=f3e2220]: Like.
+                    - listitem [ref=f3e2221]: Reply.
+                    - listitem [ref=f3e2222]: Share
+                    - listitem [ref=f3e2223]:
+                      - generic [ref=f3e2224] [cursor=pointer]: .6h
+              - generic [ref=f3e2225]:
+                - link [ref=f3e2227] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2229]:
+                  - link [ref=f3e3951] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Grace Liu" [level=4] [ref=f3e3952]
+                  - paragraph [ref=f3e2235]: Could you elaborate on the caching strategy? Curious about your approach.
+                  - generic [ref=f3e2236] [cursor=pointer]: "0"
+                  - list [ref=f3e2246]:
+                    - listitem [ref=f3e2247]: Like.
+                    - listitem [ref=f3e2248]: Reply.
+                    - listitem [ref=f3e2249]: Share
+                    - listitem [ref=f3e2250]:
+                      - generic [ref=f3e2251] [cursor=pointer]: .13h
+              - generic [ref=f3e2252]:
+                - link [ref=f3e2254] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2256]:
+                  - link [ref=f3e3953] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Kate Williams" [level=4] [ref=f3e3954]
+                  - paragraph [ref=f3e2262]: Thanks for sharing your experience. Very helpful!
+                  - generic [ref=f3e2263] [cursor=pointer]: "0"
+                  - list [ref=f3e2273]:
+                    - listitem [ref=f3e2274]: Like.
+                    - listitem [ref=f3e2275]: Reply.
+                    - listitem [ref=f3e2276]: Share
+                    - listitem [ref=f3e2277]:
+                      - generic [ref=f3e2278] [cursor=pointer]: .15h
+          - generic [ref=f3e2279]:
+            - generic [ref=f3e2280]:
+              - generic [ref=f3e2281]:
+                - generic [ref=f3e2284] [cursor=pointer]:
+                  - heading "Paul Jackson" [level=4] [ref=f3e3955]
+                  - paragraph [ref=f3e2286]:
+                    - text: 21 days ago .
+                    - link "Public" [ref=f3e3956]:
+                      - /url: "#0"
+                - button [ref=f3e2290] [cursor=pointer]
+              - heading "Finally understood monads. It only took me 5 years and 12 different tutorials. The trick is to stop trying to understand them and just use them. Functional programming is a journey, not a destination." [level=4] [ref=f3e3957]
+            - generic [ref=f3e2296]:
+              - paragraph [ref=f3e2298] [cursor=pointer]: "7"
+              - paragraph [ref=f3e2300]:
+                - link "2 Comments" [ref=f3e3958] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e2302]:
+              - button [ref=f3e3959] [cursor=pointer]
+              - button [ref=f3e3960] [cursor=pointer]
+              - button [ref=f3e3961] [cursor=pointer]
+            - generic [ref=f3e2324]:
+              - textbox "Write a comment" [ref=f3e3962]
+              - generic [ref=f3e2329]:
+                - button [ref=f3e2330] [cursor=pointer]
+                - button [ref=f3e2333] [cursor=pointer]
+            - generic [ref=f3e2336]:
+              - generic [ref=f3e2337]:
+                - link [ref=f3e2339] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2341]:
+                  - link [ref=f3e3963] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Iris Johansson" [level=4] [ref=f3e3964]
+                  - paragraph [ref=f3e2347]: Respectfully disagree on this one. In my experience, a different approach worked better because...
+                  - generic [ref=f3e2348] [cursor=pointer]: "0"
+                  - list [ref=f3e2358]:
+                    - listitem [ref=f3e2359]: Like.
+                    - listitem [ref=f3e2360]: Reply.
+                    - listitem [ref=f3e2361]: Share
+                    - listitem [ref=f3e2362]:
+                      - generic [ref=f3e2363] [cursor=pointer]: .14h
+              - generic [ref=f3e2364]:
+                - link [ref=f3e2366] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2368]:
+                  - link [ref=f3e3965] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "David Kim" [level=4] [ref=f3e3966]
+                  - paragraph [ref=f3e2374]: Thanks for sharing your experience. Very helpful!
+                  - generic [ref=f3e2375] [cursor=pointer]: "2"
+                  - list [ref=f3e2385]:
+                    - listitem [ref=f3e2386]: Like.
+                    - listitem [ref=f3e2387]: Reply.
+                    - listitem [ref=f3e2388]: Share
+                    - listitem [ref=f3e2389]:
+                      - generic [ref=f3e2390] [cursor=pointer]: .10h
+          - generic [ref=f3e2391]:
+            - generic [ref=f3e2392]:
+              - generic [ref=f3e2393]:
+                - generic [ref=f3e2396] [cursor=pointer]:
+                  - heading "Frank Okafor" [level=4] [ref=f3e3967]
+                  - paragraph [ref=f3e2398]:
+                    - text: 12 days ago .
+                    - link "Public" [ref=f3e3968]:
+                      - /url: "#0"
+                - button [ref=f3e2402] [cursor=pointer]
+              - heading "Interviewing is broken. I've been on both sides of the table, and whiteboard coding under pressure doesn't reflect real-world skills. Let's talk about better hiring practices." [level=4] [ref=f3e3969]
+            - generic [ref=f3e2408]:
+              - paragraph [ref=f3e2410] [cursor=pointer]: "2"
+              - paragraph [ref=f3e2412]:
+                - link "3 Comments" [ref=f3e3970] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e2414]:
+              - button [ref=f3e3971] [cursor=pointer]
+              - button [ref=f3e3972] [cursor=pointer]
+              - button [ref=f3e3973] [cursor=pointer]
+            - generic [ref=f3e2436]:
+              - textbox "Write a comment" [ref=f3e3974]
+              - generic [ref=f3e2441]:
+                - button [ref=f3e2442] [cursor=pointer]
+                - button [ref=f3e2445] [cursor=pointer]
+            - generic [ref=f3e2448]:
+              - generic [ref=f3e2449]:
+                - link [ref=f3e2451] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2453]:
+                  - link [ref=f3e3975] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Eva Santos" [level=4] [ref=f3e3976]
+                  - paragraph [ref=f3e2459]: Just tried this pattern in our codebase. Works beautifully. Thanks for the tip!
+                  - generic [ref=f3e2460] [cursor=pointer]: "0"
+                  - list [ref=f3e2470]:
+                    - listitem [ref=f3e2471]: Like.
+                    - listitem [ref=f3e2472]: Reply.
+                    - listitem [ref=f3e2473]: Share
+                    - listitem [ref=f3e2474]:
+                      - generic [ref=f3e2475] [cursor=pointer]: .8h
+              - generic [ref=f3e2476]:
+                - link [ref=f3e2478] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2480]:
+                  - link [ref=f3e3977] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Bob Martinez" [level=4] [ref=f3e3978]
+                  - paragraph [ref=f3e2486]: Your desk setup is goals. What monitor arm are you using?
+                  - generic [ref=f3e2487] [cursor=pointer]: "0"
+                  - list [ref=f3e2497]:
+                    - listitem [ref=f3e2498]: Like.
+                    - listitem [ref=f3e2499]: Reply.
+                    - listitem [ref=f3e2500]: Share
+                    - listitem [ref=f3e2501]:
+                      - generic [ref=f3e2502] [cursor=pointer]: .4h
+              - generic [ref=f3e2503]:
+                - link [ref=f3e2505] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2507]:
+                  - link [ref=f3e3979] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Kate Williams" [level=4] [ref=f3e3980]
+                  - paragraph [ref=f3e2513]: I appreciate how thorough this analysis is. Most articles gloss over these details.
+                  - generic [ref=f3e2514] [cursor=pointer]: "1"
+                  - list [ref=f3e2524]:
+                    - listitem [ref=f3e2525]: Like.
+                    - listitem [ref=f3e2526]: Reply.
+                    - listitem [ref=f3e2527]: Share
+                    - listitem [ref=f3e2528]:
+                      - generic [ref=f3e2529] [cursor=pointer]: .11h
+          - generic [ref=f3e2530]:
+            - generic [ref=f3e2531]:
+              - generic [ref=f3e2532]:
+                - generic [ref=f3e2535] [cursor=pointer]:
+                  - heading "Rosa Hernandez" [level=4] [ref=f3e3981]
+                  - paragraph [ref=f3e2537]:
+                    - text: 6 days ago .
+                    - link "Public" [ref=f3e3982]:
+                      - /url: "#0"
+                - button [ref=f3e2541] [cursor=pointer]
+              - heading "Visualizing our microservice architecture as a dependency graph was eye-opening. We had circular dependencies nobody knew about. A picture really is worth a thousand Slack messages." [level=4] [ref=f3e3983]
+            - generic [ref=f3e2547]:
+              - paragraph [ref=f3e2549] [cursor=pointer]: "8"
+              - paragraph [ref=f3e2551]:
+                - link "5 Comments" [ref=f3e3984] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e2553]:
+              - button [ref=f3e3985] [cursor=pointer]
+              - button [ref=f3e3986] [cursor=pointer]
+              - button [ref=f3e3987] [cursor=pointer]
+            - generic [ref=f3e2575]:
+              - textbox "Write a comment" [ref=f3e3988]
+              - generic [ref=f3e2580]:
+                - button [ref=f3e2581] [cursor=pointer]
+                - button [ref=f3e2584] [cursor=pointer]
+            - generic [ref=f3e2587]:
+              - generic [ref=f3e2588]:
+                - link [ref=f3e2590] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2592]:
+                  - link [ref=f3e3989] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Mia Robinson" [level=4] [ref=f3e3990]
+                  - paragraph [ref=f3e2598]: Your desk setup is goals. What monitor arm are you using?
+                  - generic [ref=f3e2599] [cursor=pointer]: "0"
+                  - list [ref=f3e2609]:
+                    - listitem [ref=f3e2610]: Like.
+                    - listitem [ref=f3e2611]: Reply.
+                    - listitem [ref=f3e2612]: Share
+                    - listitem [ref=f3e2613]:
+                      - generic [ref=f3e2614] [cursor=pointer]: .19h
+              - generic [ref=f3e2615]:
+                - link [ref=f3e2617] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2619]:
+                  - link [ref=f3e3991] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Paul Jackson" [level=4] [ref=f3e3992]
+                  - paragraph [ref=f3e2625]: I appreciate how thorough this analysis is. Most articles gloss over these details.
+                  - generic [ref=f3e2626] [cursor=pointer]: "0"
+                  - list [ref=f3e2636]:
+                    - listitem [ref=f3e2637]: Like.
+                    - listitem [ref=f3e2638]: Reply.
+                    - listitem [ref=f3e2639]: Share
+                    - listitem [ref=f3e2640]:
+                      - generic [ref=f3e2641] [cursor=pointer]: .9h
+              - generic [ref=f3e2642]:
+                - link [ref=f3e2644] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2646]:
+                  - link [ref=f3e3993] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Jack Thompson" [level=4] [ref=f3e3994]
+                  - paragraph [ref=f3e2652]: This is really impressive! Love the approach you took here.
+                  - generic [ref=f3e2653] [cursor=pointer]: "0"
+                  - list [ref=f3e2663]:
+                    - listitem [ref=f3e2664]: Like.
+                    - listitem [ref=f3e2665]: Reply.
+                    - listitem [ref=f3e2666]: Share
+                    - listitem [ref=f3e2667]:
+                      - generic [ref=f3e2668] [cursor=pointer]: .20h
+              - generic [ref=f3e2669]:
+                - link [ref=f3e2671] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2673]:
+                  - link [ref=f3e3995] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Iris Johansson" [level=4] [ref=f3e3996]
+                  - paragraph [ref=f3e2679]: Respectfully disagree on this one. In my experience, a different approach worked better because...
+                  - generic [ref=f3e2680] [cursor=pointer]: "0"
+                  - list [ref=f3e2690]:
+                    - listitem [ref=f3e2691]: Like.
+                    - listitem [ref=f3e2692]: Reply.
+                    - listitem [ref=f3e2693]: Share
+                    - listitem [ref=f3e2694]:
+                      - generic [ref=f3e2695] [cursor=pointer]: .12h
+              - generic [ref=f3e2696]:
+                - link [ref=f3e2698] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2700]:
+                  - link [ref=f3e3997] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Sam Wilson" [level=4] [ref=f3e3998]
+                  - paragraph [ref=f3e2706]: Just tried this pattern in our codebase. Works beautifully. Thanks for the tip!
+                  - generic [ref=f3e2707] [cursor=pointer]: "0"
+                  - list [ref=f3e2717]:
+                    - listitem [ref=f3e2718]: Like.
+                    - listitem [ref=f3e2719]: Reply.
+                    - listitem [ref=f3e2720]: Share
+                    - listitem [ref=f3e2721]:
+                      - generic [ref=f3e2722] [cursor=pointer]: .7h
+          - generic [ref=f3e2723]:
+            - generic [ref=f3e2724]:
+              - generic [ref=f3e2725]:
+                - generic [ref=f3e2728] [cursor=pointer]:
+                  - heading "Bob Martinez" [level=4] [ref=f3e3999]
+                  - paragraph [ref=f3e2730]:
+                    - text: 7 days ago .
+                    - link "Public" [ref=f3e4000]:
+                      - /url: "#0"
+                - button [ref=f3e2734] [cursor=pointer]
+              - heading "Made traditional paella for the first time! The secret is getting the socarrat just right — that crispy caramelized rice at the bottom. Took 3 tries but I nailed it. Food > code sometimes." [level=4] [ref=f3e4001]
+            - generic [ref=f3e2741]:
+              - paragraph [ref=f3e2743] [cursor=pointer]: "5"
+              - paragraph [ref=f3e2745]:
+                - link "4 Comments" [ref=f3e4002] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e2747]:
+              - button [ref=f3e4003] [cursor=pointer]
+              - button [ref=f3e4004] [cursor=pointer]
+              - button [ref=f3e4005] [cursor=pointer]
+            - generic [ref=f3e2769]:
+              - textbox "Write a comment" [ref=f3e4006]
+              - generic [ref=f3e2774]:
+                - button [ref=f3e2775] [cursor=pointer]
+                - button [ref=f3e2778] [cursor=pointer]
+            - generic [ref=f3e2781]:
+              - generic [ref=f3e2782]:
+                - link [ref=f3e2784] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2786]:
+                  - link [ref=f3e4007] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Mia Robinson" [level=4] [ref=f3e4008]
+                  - paragraph [ref=f3e2792]: That debugging story gave me second-hand anxiety. Glad you figured it out!
+                  - generic [ref=f3e2793] [cursor=pointer]: "1"
+                  - list [ref=f3e2803]:
+                    - listitem [ref=f3e2804]: Like.
+                    - listitem [ref=f3e2805]: Reply.
+                    - listitem [ref=f3e2806]: Share
+                    - listitem [ref=f3e2807]:
+                      - generic [ref=f3e2808] [cursor=pointer]: .6h
+              - generic [ref=f3e2809]:
+                - link [ref=f3e2811] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2813]:
+                  - link [ref=f3e4009] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Carol Nguyen" [level=4] [ref=f3e4010]
+                  - paragraph [ref=f3e2819]: Great insights! I've been thinking about this too.
+                  - generic [ref=f3e2820] [cursor=pointer]: "0"
+                  - list [ref=f3e2830]:
+                    - listitem [ref=f3e2831]: Like.
+                    - listitem [ref=f3e2832]: Reply.
+                    - listitem [ref=f3e2833]: Share
+                    - listitem [ref=f3e2834]:
+                      - generic [ref=f3e2835] [cursor=pointer]: .7h
+              - generic [ref=f3e2836]:
+                - link [ref=f3e2838] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2840]:
+                  - link [ref=f3e4011] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Rosa Hernandez" [level=4] [ref=f3e4012]
+                  - paragraph [ref=f3e2846]: The timing of this post is perfect — I'm literally dealing with this right now.
+                  - generic [ref=f3e2847] [cursor=pointer]: "0"
+                  - list [ref=f3e2857]:
+                    - listitem [ref=f3e2858]: Like.
+                    - listitem [ref=f3e2859]: Reply.
+                    - listitem [ref=f3e2860]: Share
+                    - listitem [ref=f3e2861]:
+                      - generic [ref=f3e2862] [cursor=pointer]: .3h
+              - generic [ref=f3e2863]:
+                - link [ref=f3e2865] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e2867]:
+                  - link [ref=f3e4013] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Carol Nguyen" [level=4] [ref=f3e4014]
+                  - paragraph [ref=f3e2873]: That debugging story gave me second-hand anxiety. Glad you figured it out!
+                  - generic [ref=f3e2874] [cursor=pointer]: "3"
+                  - list [ref=f3e2884]:
+                    - listitem [ref=f3e2885]: Like.
+                    - listitem [ref=f3e2886]: Reply.
+                    - listitem [ref=f3e2887]: Share
+                    - listitem [ref=f3e2888]:
+                      - generic [ref=f3e2889] [cursor=pointer]: .20h
+          - generic [ref=f3e2890]:
+            - generic [ref=f3e2891]:
+              - generic [ref=f3e2892]:
+                - generic [ref=f3e2895] [cursor=pointer]:
+                  - heading "Quinn Taylor" [level=4] [ref=f3e4015]
+                  - paragraph [ref=f3e2897]:
+                    - text: 19 days ago .
+                    - link "Public" [ref=f3e4016]:
+                      - /url: "#0"
+                - button [ref=f3e2901] [cursor=pointer]
+              - 'heading "My take on AI in 2026: It''s not going to replace developers, but it will change how we work. The most productive engineers I know use AI as a thinking partner, not a replacement. Embrace it wisely." [level=4] [ref=f3e4017]'
+            - generic [ref=f3e2907]:
+              - paragraph [ref=f3e2909] [cursor=pointer]: "6"
+              - paragraph [ref=f3e2911]:
+                - link "1 Comment" [ref=f3e4018] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e2913]:
+              - button [ref=f3e4019] [cursor=pointer]
+              - button [ref=f3e4020] [cursor=pointer]
+              - button [ref=f3e4021] [cursor=pointer]
+            - generic [ref=f3e2935]:
+              - textbox "Write a comment" [ref=f3e4022]
+              - generic [ref=f3e2940]:
+                - button [ref=f3e2941] [cursor=pointer]
+                - button [ref=f3e2944] [cursor=pointer]
+            - generic [ref=f3e2948]:
+              - link [ref=f3e2950] [cursor=pointer]:
+                - /url: "#0"
+              - generic [ref=f3e2952]:
+                - link [ref=f3e4023] [cursor=pointer]:
+                  - /url: "#0"
+                  - heading "Kate Williams" [level=4] [ref=f3e4024]
+                - paragraph [ref=f3e2958]: Could you elaborate on the caching strategy? Curious about your approach.
+                - generic [ref=f3e2959] [cursor=pointer]: "0"
+                - list [ref=f3e2969]:
+                  - listitem [ref=f3e2970]: Like.
+                  - listitem [ref=f3e2971]: Reply.
+                  - listitem [ref=f3e2972]: Share
+                  - listitem [ref=f3e2973]:
+                    - generic [ref=f3e2974] [cursor=pointer]: .18h
+          - generic [ref=f3e2975]:
+            - generic [ref=f3e2976]:
+              - generic [ref=f3e2977]:
+                - generic [ref=f3e2980] [cursor=pointer]:
+                  - heading "Rosa Hernandez" [level=4] [ref=f3e4025]
+                  - paragraph [ref=f3e2982]:
+                    - text: 19 days ago .
+                    - link "Public" [ref=f3e4026]:
+                      - /url: "#0"
+                - button [ref=f3e2986] [cursor=pointer]
+              - heading "Just ran my first marathon! 42.2 km in 4 hours and 23 minutes. Training for 6 months paid off. The last 10 km were brutal but crossing that finish line was one of the best moments of my life." [level=4] [ref=f3e4027]
+            - generic [ref=f3e2992]:
+              - paragraph [ref=f3e2994] [cursor=pointer]: "8"
+              - paragraph [ref=f3e2996]:
+                - link "8 Comments" [ref=f3e4028] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e2998]:
+              - button [ref=f3e4029] [cursor=pointer]
+              - button [ref=f3e4030] [cursor=pointer]
+              - button [ref=f3e4031] [cursor=pointer]
+            - generic [ref=f3e3020]:
+              - textbox "Write a comment" [ref=f3e4032]
+              - generic [ref=f3e3025]:
+                - button [ref=f3e3026] [cursor=pointer]
+                - button [ref=f3e3029] [cursor=pointer]
+            - generic [ref=f3e3032]:
+              - generic [ref=f3e3033]:
+                - link [ref=f3e3035] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e3037]:
+                  - link [ref=f3e4033] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Alice Chen" [level=4] [ref=f3e4034]
+                  - paragraph [ref=f3e3043]: Just tried this pattern in our codebase. Works beautifully. Thanks for the tip!
+                  - generic [ref=f3e3044] [cursor=pointer]: "0"
+                  - list [ref=f3e3054]:
+                    - listitem [ref=f3e3055]: Like.
+                    - listitem [ref=f3e3056]: Reply.
+                    - listitem [ref=f3e3057]: Share
+                    - listitem [ref=f3e3058]:
+                      - generic [ref=f3e3059] [cursor=pointer]: .23h
+              - generic [ref=f3e3060]:
+                - link [ref=f3e3062] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e3064]:
+                  - link [ref=f3e4035] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Noah Anderson" [level=4] [ref=f3e4036]
+                  - paragraph [ref=f3e3070]: Respectfully disagree on this one. In my experience, a different approach worked better because...
+                  - generic [ref=f3e3071] [cursor=pointer]: "0"
+                  - list [ref=f3e3081]:
+                    - listitem [ref=f3e3082]: Like.
+                    - listitem [ref=f3e3083]: Reply.
+                    - listitem [ref=f3e3084]: Share
+                    - listitem [ref=f3e3085]:
+                      - generic [ref=f3e3086] [cursor=pointer]: .1d
+              - generic [ref=f3e3087]:
+                - link [ref=f3e3089] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e3091]:
+                  - link [ref=f3e4037] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Sam Wilson" [level=4] [ref=f3e4038]
+                  - paragraph [ref=f3e3097]: Love this! Bookmarking for later reference.
+                  - generic [ref=f3e3098] [cursor=pointer]: "0"
+                  - list [ref=f3e3108]:
+                    - listitem [ref=f3e3109]: Like.
+                    - listitem [ref=f3e3110]: Reply.
+                    - listitem [ref=f3e3111]: Share
+                    - listitem [ref=f3e3112]:
+                      - generic [ref=f3e3113] [cursor=pointer]: .14h
+              - generic [ref=f3e3114]:
+                - link [ref=f3e3116] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e3118]:
+                  - link [ref=f3e4039] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Leo Garcia" [level=4] [ref=f3e4040]
+                  - paragraph [ref=f3e3124]: Great insights! I've been thinking about this too.
+                  - generic [ref=f3e3125] [cursor=pointer]: "0"
+                  - list [ref=f3e3135]:
+                    - listitem [ref=f3e3136]: Like.
+                    - listitem [ref=f3e3137]: Reply.
+                    - listitem [ref=f3e3138]: Share
+                    - listitem [ref=f3e3139]:
+                      - generic [ref=f3e3140] [cursor=pointer]: .17h
+              - generic [ref=f3e3141]:
+                - link [ref=f3e3143] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e3145]:
+                  - link [ref=f3e4041] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Kate Williams" [level=4] [ref=f3e4042]
+                  - paragraph [ref=f3e3151]: This is really impressive! Love the approach you took here.
+                  - generic [ref=f3e3152] [cursor=pointer]: "0"
+                  - list [ref=f3e3162]:
+                    - listitem [ref=f3e3163]: Like.
+                    - listitem [ref=f3e3164]: Reply.
+                    - listitem [ref=f3e3165]: Share
+                    - listitem [ref=f3e3166]:
+                      - generic [ref=f3e3167] [cursor=pointer]: .1d
+              - generic [ref=f3e3168]:
+                - link [ref=f3e3170] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e3172]:
+                  - link [ref=f3e4043] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Mia Robinson" [level=4] [ref=f3e4044]
+                  - paragraph [ref=f3e3178]: Just tried this pattern in our codebase. Works beautifully. Thanks for the tip!
+                  - generic [ref=f3e3179] [cursor=pointer]: "0"
+                  - list [ref=f3e3189]:
+                    - listitem [ref=f3e3190]: Like.
+                    - listitem [ref=f3e3191]: Reply.
+                    - listitem [ref=f3e3192]: Share
+                    - listitem [ref=f3e3193]:
+                      - generic [ref=f3e3194] [cursor=pointer]: .23h
+          - generic [ref=f3e3195]:
+            - generic [ref=f3e3196]:
+              - generic [ref=f3e3197]:
+                - generic [ref=f3e3200] [cursor=pointer]:
+                  - heading "Quinn Taylor" [level=4] [ref=f3e4045]
+                  - paragraph [ref=f3e3202]:
+                    - text: 25 days ago .
+                    - link "Public" [ref=f3e4046]:
+                      - /url: "#0"
+                - button [ref=f3e3206] [cursor=pointer]
+              - heading "Our team just hit 90% test coverage. It wasn't easy — convincing stakeholders, refactoring legacy code, dealing with flaky tests. But the confidence it gives us when deploying is absolutely worth it." [level=4] [ref=f3e4047]
+            - generic [ref=f3e3212]:
+              - paragraph [ref=f3e3214] [cursor=pointer]: "2"
+              - paragraph [ref=f3e3216]:
+                - link "2 Comments" [ref=f3e4048] [cursor=pointer]:
+                  - /url: "#0"
+            - generic [ref=f3e3218]:
+              - button [ref=f3e4049] [cursor=pointer]
+              - button [ref=f3e4050] [cursor=pointer]
+              - button [ref=f3e4051] [cursor=pointer]
+            - generic [ref=f3e3240]:
+              - textbox "Write a comment" [ref=f3e4052]
+              - generic [ref=f3e3245]:
+                - button [ref=f3e3246] [cursor=pointer]
+                - button [ref=f3e3249] [cursor=pointer]
+            - generic [ref=f3e3252]:
+              - generic [ref=f3e3253]:
+                - link [ref=f3e3255] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e3257]:
+                  - link [ref=f3e4053] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Rosa Hernandez" [level=4] [ref=f3e4054]
+                  - paragraph [ref=f3e3263]: This is really impressive! Love the approach you took here.
+                  - generic [ref=f3e3264] [cursor=pointer]: "0"
+                  - list [ref=f3e3274]:
+                    - listitem [ref=f3e3275]: Like.
+                    - listitem [ref=f3e3276]: Reply.
+                    - listitem [ref=f3e3277]: Share
+                    - listitem [ref=f3e3278]:
+                      - generic [ref=f3e3279] [cursor=pointer]: .23h
+              - generic [ref=f3e3280]:
+                - link [ref=f3e3282] [cursor=pointer]:
+                  - /url: "#0"
+                - generic [ref=f3e3284]:
+                  - link [ref=f3e4055] [cursor=pointer]:
+                    - /url: "#0"
+                    - heading "Sam Wilson" [level=4] [ref=f3e4056]
+                  - paragraph [ref=f3e3290]: Great insights! I've been thinking about this too.
+                  - generic [ref=f3e3291] [cursor=pointer]: "0"
+                  - list [ref=f3e3301]:
+                    - listitem [ref=f3e3302]: Like.
+                    - listitem [ref=f3e3303]: Reply.
+                    - listitem [ref=f3e3304]: Share
+                    - listitem [ref=f3e3305]:
+                      - generic [ref=f3e3306] [cursor=pointer]: .1d
+          - button "Load More" [ref=f3e4057] [cursor=pointer]
+        - generic [ref=f3e269]:
+          - generic [ref=f3e271]:
+            - generic [ref=f3e272]:
+              - heading "You Might Like" [level=4] [ref=f3e4058]
+              - link "See All" [ref=f3e4059] [cursor=pointer]:
+                - /url: "#0"
+            - separator [ref=f3e276]
+            - generic [ref=f3e277]:
+              - generic [ref=f3e278]:
+                - link [ref=f3e4060] [cursor=pointer]:
+                  - /url: profile.html
+                  - img "Image" [ref=f3e4061]
+                - generic [ref=f3e282]:
+                  - link [ref=f3e4062] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Radovan SkillArena" [level=4] [ref=f3e4063]
+                  - paragraph [ref=f3e285]: Founder & CEO at Trophy
+              - generic [ref=f3e286]:
+                - button "Ignore" [ref=f3e4064] [cursor=pointer]
+                - button "Follow" [ref=f3e4065] [cursor=pointer]
+          - generic [ref=f3e290]:
+            - generic [ref=f3e291]:
+              - generic [ref=f3e292]:
+                - heading "Your Friends" [level=4] [ref=f3e4066]
+                - link "See All" [ref=f3e4067] [cursor=pointer]:
+                  - /url: find-friends.html
+              - searchbox "Search" [ref=f3e4068]
+            - generic [ref=f3e301]:
+              - generic [ref=f3e302]:
+                - generic [ref=f3e303]:
+                  - link [ref=f3e305] [cursor=pointer]:
+                    - /url: profile.html
+                  - generic [ref=f3e306]:
+                    - link [ref=f3e4069] [cursor=pointer]:
+                      - /url: profile.html
+                      - heading "Steve Jobs" [level=4] [ref=f3e4070]
+                    - paragraph [ref=f3e309]: CEO of Apple
+                - generic [ref=f3e310]: 5 minute ago
+              - generic [ref=f3e312]:
+                - link [ref=f3e314] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f3e315]:
+                  - link [ref=f3e4071] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Ryan Roslansky" [level=4] [ref=f3e4072]
+                  - paragraph [ref=f3e318]: CEO of Linkedin
+              - generic [ref=f3e323]:
+                - link [ref=f3e325] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f3e326]:
+                  - link [ref=f3e4073] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f3e4074]
+                  - paragraph [ref=f3e329]: CEO of Figma
+              - generic [ref=f3e333]:
+                - generic [ref=f3e334]:
+                  - link [ref=f3e336] [cursor=pointer]:
+                    - /url: profile.html
+                  - generic [ref=f3e337]:
+                    - link [ref=f3e4075] [cursor=pointer]:
+                      - /url: profile.html
+                      - heading "Steve Jobs" [level=4] [ref=f3e4076]
+                    - paragraph [ref=f3e340]: CEO of Apple
+                - generic [ref=f3e341]: 5 minute ago
+              - generic [ref=f3e343]:
+                - link [ref=f3e345] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f3e346]:
+                  - link [ref=f3e4077] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Ryan Roslansky" [level=4] [ref=f3e4078]
+                  - paragraph [ref=f3e349]: CEO of Linkedin
+              - generic [ref=f3e354]:
+                - link [ref=f3e356] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f3e357]:
+                  - link [ref=f3e4079] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f3e4080]
+                  - paragraph [ref=f3e360]: CEO of Figma
+              - generic [ref=f3e364]:
+                - generic [ref=f3e365]:
+                  - link [ref=f3e367] [cursor=pointer]:
+                    - /url: profile.html
+                  - generic [ref=f3e368]:
+                    - link [ref=f3e4081] [cursor=pointer]:
+                      - /url: profile.html
+                      - heading "Steve Jobs" [level=4] [ref=f3e4082]
+                    - paragraph [ref=f3e371]: CEO of Apple
+                - generic [ref=f3e372]: 5 minute ago
+              - generic [ref=f3e374]:
+                - link [ref=f3e376] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f3e377]:
+                  - link [ref=f3e4083] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Ryan Roslansky" [level=4] [ref=f3e4084]
+                  - paragraph [ref=f3e380]: CEO of Linkedin
+              - generic [ref=f3e385]:
+                - link [ref=f3e387] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f3e388]:
+                  - link [ref=f3e4085] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f3e4086]
+                  - paragraph [ref=f3e391]: CEO of Figma
+              - generic [ref=f3e396]:
+                - link [ref=f3e398] [cursor=pointer]:
+                  - /url: profile.html
+                - generic [ref=f3e399]:
+                  - link [ref=f3e4087] [cursor=pointer]:
+                    - /url: profile.html
+                    - heading "Dylan Field" [level=4] [ref=f3e4088]
+                  - paragraph [ref=f3e402]: CEO of Figma
+              - generic [ref=f3e406]:
+                - generic [ref=f3e407]:
+                  - link [ref=f3e409] [cursor=pointer]:
+                    - /url: profile.html
+                  - generic [ref=f3e410]:
+                    - link [ref=f3e4089] [cursor=pointer]:
+                      - /url: profile.html
+                      - heading "Steve Jobs" [level=4] [ref=f3e4090]
+                    - paragraph [ref=f3e413]: CEO of Apple
+                - generic [ref=f3e414]: 5 minute ago
