@@ -53,6 +53,7 @@ const notifications_routes_1 = __importDefault(require("./modules/notifications/
 const events_routes_1 = __importDefault(require("./modules/events/events.routes"));
 const upload_routes_1 = __importDefault(require("./modules/upload/upload.routes"));
 const search_routes_1 = __importDefault(require("./modules/search/search.routes"));
+const health_routes_1 = __importDefault(require("./modules/health/health.routes"));
 const errorHandler_1 = require("./middleware/errorHandler");
 const asyncHandler_1 = require("./lib/asyncHandler");
 const uploadController = __importStar(require("./modules/upload/upload.controller"));
@@ -73,6 +74,7 @@ app.use("/api/notifications", notifications_routes_1.default);
 app.use("/api/events", events_routes_1.default);
 app.use("/api/upload", upload_routes_1.default);
 app.use("/api/search", search_routes_1.default);
+app.get("/api/health", health_routes_1.default);
 app.get("/api/files/*key", (0, asyncHandler_1.asyncHandler)(uploadController.serveFile));
 app.use(errorHandler_1.errorHandler);
 exports.default = app;

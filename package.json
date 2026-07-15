@@ -1,0 +1,14 @@
+{
+  "name": "buddyscripts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:app\"",
+    "dev:app": "cd app && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "install:all": "cd app && npm install && cd ../server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

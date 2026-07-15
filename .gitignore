@@ -1,0 +1,7 @@
+node_modules
+.env
+*.zip
+*.deb
+Selection Task for Full Stack Engineer at Appifylab/
+server/buddyscript-server-prod.zip
+server/index.js
