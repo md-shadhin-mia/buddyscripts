@@ -16,6 +16,7 @@ const errors_1 = require("../../lib/errors");
 const pagination_1 = require("../../lib/pagination");
 const postInclude = {
     author: { select: { id: true, name: true, avatar: true } },
+    media: { orderBy: { order: "asc" } },
 };
 async function createPost(userId, input) {
     const post = await database_1.default.post.create({
@@ -24,6 +25,15 @@ async function createPost(userId, input) {
             imageUrl: input.imageUrl,
             visibility: input.visibility ?? "PUBLIC",
             authorId: userId,
+            media: input.media
+                ? {
+                    create: input.media.map((m, i) => ({
+                        url: m.url,
+                        type: m.type,
+                        order: i,
+                    })),
+                }
+                : undefined,
         },
         include: postInclude,
     });
@@ -53,6 +63,15 @@ async function getFeed(userId, params) {
         include: {
             ...postInclude,
             _count: { select: { comments: true, reactions: true } },
+            reactions: {
+                take: 5,
+                orderBy: { createdAt: "desc" },
+                select: {
+                    type: true,
+                    userId: true,
+                    user: { select: { id: true, name: true, avatar: true } },
+                },
+            },
         },
     });
     return result;
@@ -63,6 +82,15 @@ async function getPost(id) {
         include: {
             ...postInclude,
             _count: { select: { comments: true, reactions: true } },
+            reactions: {
+                take: 5,
+                orderBy: { createdAt: "desc" },
+                select: {
+                    type: true,
+                    userId: true,
+                    user: { select: { id: true, name: true, avatar: true } },
+                },
+            },
         },
     });
     if (!post || post.deletedAt)

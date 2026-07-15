@@ -18,8 +18,10 @@ cron.schedule("0 3 * * *", () => {
   cleanOldNotifications()
 })
 
-httpServer.listen(env.PORT, () => {
-  console.log(`Server running on port ${env.PORT} in ${env.NODE_ENV} mode`)
+const host = process.env.HOST || "0.0.0.0"
+
+httpServer.listen(env.PORT, host, () => {
+  console.log(`Server running on http://${host}:${env.PORT} in ${env.NODE_ENV} mode`)
 })
 
 export default httpServer

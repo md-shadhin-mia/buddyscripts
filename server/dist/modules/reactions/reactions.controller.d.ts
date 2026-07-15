@@ -14,4 +14,7 @@ export declare function reactToComment(req: Request<{
 export declare function removeCommentReaction(req: Request<{
     commentId: string;
 }>, res: Response): Promise<void>;
+export declare function getCommentReactions(req: Request<{
+    commentId: string;
+}>, res: Response): Promise<void>;
 //# sourceMappingURL=reactions.controller.d.ts.map

@@ -18,8 +18,9 @@ node_cron_1.default.schedule("0 * * * *", () => {
 node_cron_1.default.schedule("0 3 * * *", () => {
     (0, notificationCleanup_1.cleanOldNotifications)();
 });
-httpServer.listen(env_1.env.PORT, () => {
-    console.log(`Server running on port ${env_1.env.PORT} in ${env_1.env.NODE_ENV} mode`);
+const host = process.env.HOST || "0.0.0.0";
+httpServer.listen(env_1.env.PORT, host, () => {
+    console.log(`Server running on http://${host}:${env_1.env.PORT} in ${env_1.env.NODE_ENV} mode`);
 });
 exports.default = httpServer;
 //# sourceMappingURL=server.js.map

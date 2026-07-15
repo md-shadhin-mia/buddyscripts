@@ -45,5 +45,6 @@ router.delete("/posts/:postId/reactions", authenticate_1.authenticate, (0, async
 router.get("/posts/:postId/reactions", (0, asyncHandler_1.asyncHandler)(reactionsController.getPostReactions));
 router.post("/comments/:commentId/reactions", authenticate_1.authenticate, (0, validate_1.validate)(reactions_validation_1.createReactionSchema), (0, asyncHandler_1.asyncHandler)(reactionsController.reactToComment));
 router.delete("/comments/:commentId/reactions", authenticate_1.authenticate, (0, asyncHandler_1.asyncHandler)(reactionsController.removeCommentReaction));
+router.get("/comments/:commentId/reactions", (0, asyncHandler_1.asyncHandler)(reactionsController.getCommentReactions));
 exports.default = router;
 //# sourceMappingURL=reactions.routes.js.map

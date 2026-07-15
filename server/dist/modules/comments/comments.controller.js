@@ -45,7 +45,8 @@ async function createComment(req, res) {
 }
 async function getComments(req, res) {
     const { cursor, take } = req.query;
-    const result = await commentsService.getComments(req.params.postId, { cursor, take: take ? Number(take) : undefined });
+    const userId = req.user?.id;
+    const result = await commentsService.getComments(req.params.postId, { cursor, take: take ? Number(take) : undefined }, userId);
     res.json({ status: "success", data: result });
 }
 async function updateComment(req, res) {

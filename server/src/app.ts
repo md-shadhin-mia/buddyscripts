@@ -15,6 +15,7 @@ import notificationsRoutes from "./modules/notifications/notifications.routes"
 import eventsRoutes from "./modules/events/events.routes"
 import uploadRoutes from "./modules/upload/upload.routes"
 import searchRoutes from "./modules/search/search.routes"
+import healthRoutes from "./modules/health/health.routes"
 import { errorHandler } from "./middleware/errorHandler"
 import { asyncHandler } from "./lib/asyncHandler"
 import * as uploadController from "./modules/upload/upload.controller"
@@ -38,6 +39,7 @@ app.use("/api/notifications", notificationsRoutes)
 app.use("/api/events", eventsRoutes)
 app.use("/api/upload", uploadRoutes)
 app.use("/api/search", searchRoutes)
+app.get("/api/health", healthRoutes)
 app.get("/api/files/*key", asyncHandler(uploadController.serveFile))
 
 app.use(errorHandler)

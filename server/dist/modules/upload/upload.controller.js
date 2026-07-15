@@ -33,11 +33,44 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getPresignedUrl = getPresignedUrl;
+exports.uploadFile = uploadFile;
+exports.serveFile = serveFile;
 const uploadService = __importStar(require("./upload.service"));
-async function getPresignedUrl(req, res) {
-    const { fileName, contentType } = req.body;
-    const result = await uploadService.generatePresignedUrl(req.user.id, fileName, contentType);
+async function uploadFile(req, res) {
+    const file = req.file;
+    if (!file) {
+        res.status(400).json({ status: "error", message: "No file provided" });
+        return;
+    }
+    const result = await uploadService.uploadFile(req.user.id, {
+        buffer: file.buffer,
+        originalname: file.originalname,
+        mimetype: file.mimetype,
+    });
     res.json({ status: "success", data: result });
+}
+async function serveFile(req, res) {
+    const rawKey = req.params.key;
+    const key = Array.isArray(rawKey) ? rawKey.join("/") : rawKey;
+    if (!key) {
+        res.status(400).json({ status: "error", message: "No file key provided" });
+        return;
+    }
+    try {
+        const { getFileStream } = await Promise.resolve().then(() => __importStar(require("../../config/s3")));
+        const response = await getFileStream(key);
+        const stream = response.Body;
+        if (response.ContentType) {
+            res.setHeader("Content-Type", response.ContentType);
+        }
+        if (response.ContentLength) {
+            res.setHeader("Content-Length", response.ContentLength);
+        }
+        res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+        stream.pipe(res);
+    }
+    catch {
+        res.status(404).json({ status: "error", message: "File not found" });
+    }
 }
 //# sourceMappingURL=upload.controller.js.map

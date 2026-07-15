@@ -38,6 +38,7 @@ exports.removePostReaction = removePostReaction;
 exports.getPostReactions = getPostReactions;
 exports.reactToComment = reactToComment;
 exports.removeCommentReaction = removeCommentReaction;
+exports.getCommentReactions = getCommentReactions;
 const reactionsService = __importStar(require("./reactions.service"));
 async function reactToPost(req, res) {
     const reaction = await reactionsService.reactToPost(req.user.id, req.params.postId, req.body);
@@ -58,5 +59,9 @@ async function reactToComment(req, res) {
 async function removeCommentReaction(req, res) {
     await reactionsService.removeCommentReaction(req.user.id, req.params.commentId);
     res.json({ status: "success", message: "Reaction removed" });
+}
+async function getCommentReactions(req, res) {
+    const reactions = await reactionsService.getCommentReactions(req.params.commentId);
+    res.json({ status: "success", data: reactions });
 }
 //# sourceMappingURL=reactions.controller.js.map

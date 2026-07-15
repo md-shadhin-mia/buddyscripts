@@ -1,6 +1,9 @@
-export declare function generatePresignedUrl(userId: string, fileName: string, contentType: string): Promise<{
-    url: string;
+export declare function uploadFile(userId: string, file: {
+    buffer: Buffer;
+    originalname: string;
+    mimetype: string;
+}): Promise<{
     key: string;
-    publicUrl: string;
+    url: string;
 }>;
 //# sourceMappingURL=upload.service.d.ts.map

@@ -1,9 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getPresignedUploadUrl = getPresignedUploadUrl;
-exports.getPublicUrl = getPublicUrl;
+exports.uploadToS3 = uploadToS3;
+exports.getFileStream = getFileStream;
 const client_s3_1 = require("@aws-sdk/client-s3");
-const s3_request_presigner_1 = require("@aws-sdk/s3-request-presigner");
 const env_1 = require("./env");
 const s3 = env_1.env.S3_ENDPOINT
     ? new client_s3_1.S3Client({
@@ -16,17 +15,24 @@ const s3 = env_1.env.S3_ENDPOINT
         forcePathStyle: true,
     })
     : null;
-async function getPresignedUploadUrl(key, contentType) {
+async function uploadToS3(key, buffer, contentType) {
     if (!s3)
         throw new Error("S3 not configured");
     const command = new client_s3_1.PutObjectCommand({
         Bucket: env_1.env.S3_BUCKET,
         Key: key,
+        Body: buffer,
         ContentType: contentType,
     });
-    return (0, s3_request_presigner_1.getSignedUrl)(s3, command, { expiresIn: 3600 });
+    await s3.send(command);
 }
-function getPublicUrl(key) {
-    return `${env_1.env.S3_PUBLIC_URL}/${key}`;
+async function getFileStream(key) {
+    if (!s3)
+        throw new Error("S3 not configured");
+    const command = new client_s3_1.GetObjectCommand({
+        Bucket: env_1.env.S3_BUCKET,
+        Key: key,
+    });
+    return s3.send(command);
 }
 //# sourceMappingURL=s3.js.map

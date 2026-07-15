@@ -1,6 +1,11 @@
+interface MediaInput {
+    url: string;
+    type: "image" | "video";
+}
 interface CreatePostInput {
     content: string;
     imageUrl?: string;
+    media?: MediaInput[];
     visibility?: "PUBLIC" | "FRIENDS" | "PRIVATE";
 }
 interface UpdatePostInput {
@@ -14,6 +19,13 @@ export declare function createPost(userId: string, input: CreatePostInput): Prom
         id: string;
         name: string;
     };
+    media: {
+        id: string;
+        postId: string;
+        url: string;
+        type: string;
+        order: number;
+    }[];
 } & {
     id: string;
     content: string;
@@ -40,6 +52,22 @@ export declare function getPost(id: string): Promise<{
         id: string;
         name: string;
     };
+    media: {
+        id: string;
+        postId: string;
+        url: string;
+        type: string;
+        order: number;
+    }[];
+    reactions: {
+        type: import("../../generated/prisma").$Enums.ReactionType;
+        user: {
+            avatar: string | null;
+            id: string;
+            name: string;
+        };
+        userId: string;
+    }[];
 } & {
     id: string;
     content: string;
@@ -56,6 +84,13 @@ export declare function updatePost(userId: string, id: string, input: UpdatePost
         id: string;
         name: string;
     };
+    media: {
+        id: string;
+        postId: string;
+        url: string;
+        type: string;
+        order: number;
+    }[];
 } & {
     id: string;
     content: string;
