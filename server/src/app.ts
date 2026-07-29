@@ -39,7 +39,7 @@ app.use("/api/notifications", notificationsRoutes)
 app.use("/api/events", eventsRoutes)
 app.use("/api/upload", uploadRoutes)
 app.use("/api/search", searchRoutes)
-app.get("/api/health", healthRoutes)
+app.use("/api/health", healthRoutes)
 app.get("/api/files/*key", asyncHandler(uploadController.serveFile))
 
 app.use(errorHandler)

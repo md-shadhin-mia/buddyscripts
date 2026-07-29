@@ -74,7 +74,7 @@ app.use("/api/notifications", notifications_routes_1.default);
 app.use("/api/events", events_routes_1.default);
 app.use("/api/upload", upload_routes_1.default);
 app.use("/api/search", search_routes_1.default);
-app.get("/api/health", health_routes_1.default);
+app.use("/api/health", health_routes_1.default);
 app.get("/api/files/*key", (0, asyncHandler_1.asyncHandler)(uploadController.serveFile));
 app.use(errorHandler_1.errorHandler);
 exports.default = app;
