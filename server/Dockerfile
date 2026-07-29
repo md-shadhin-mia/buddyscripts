@@ -22,4 +22,4 @@ COPY --from=build /app/prisma ./prisma
 COPY --from=build /app/src/generated ./src/generated
 
 EXPOSE 3000
-CMD ["sh", "-c", "npm run migrate:prod && npm start"]
+CMD ["sh", "-c", "npm start"]
