@@ -308,3 +308,5 @@ This project was built as a full-stack engineering assignment demonstrating:
 - Clean architecture with separation of concerns
 - Comprehensive testing strategy
 - Production-ready deployment configuration
+### Demo Video
+[![Demo Video 3](https://img.youtube.com/vi/VUCFx8T10bY/maxresdefault.jpg)](https://www.youtube.com/watch?v=VUCFx8T10bY)
